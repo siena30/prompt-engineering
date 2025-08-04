@@ -1,0 +1,69 @@
+# Jekyll Configuration for GitHub Pages
+title: "Prompt Engineering Library"
+description: "A curated collection of high-quality, token-efficient prompts for various professional and creative tasks"
+baseurl: ""
+url: "https://yourusername.github.io/prompt-engineering"
+
+# GitHub Pages settings
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+- jekyll-remote-theme
+
+# Site settings
+author: "Prompt Engineering Team"
+github_username: yourusername
+repository: yourusername/prompt-engineering
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Collections
+collections:
+  prompts:
+    output: true
+    permalink: /:collection/:name/
+
+# Navigation
+header_pages:
+  - index.md
+  - prompt-library/README.md
+
+# SEO settings
+twitter:
+  username: yourusername
+  card: summary
+
+google_analytics: # Add your GA tracking ID here
+
+# Exclude files from processing
+exclude:
+  - README.md
+  - CLAUDE.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Include files
+include:
+  - _pages
+
+# Default layouts
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "posts" 
+    values:
+      layout: "post"

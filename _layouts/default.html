@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    {% seo %}
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <style>
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+        line-height: 1.6;
+        color: #333;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      
+      .header {
+        text-align: center;
+        margin-bottom: 40px;
+        padding: 20px 0;
+        border-bottom: 2px solid #eee;
+      }
+      
+      .header h1 {
+        margin: 0;
+        color: #2c3e50;
+      }
+      
+      .header p {
+        margin: 10px 0 0 0;
+        color: #7f8c8d;
+        font-size: 18px;
+      }
+      
+      .nav-links {
+        margin: 20px 0;
+        text-align: center;
+      }
+      
+      .nav-links a {
+        margin: 0 15px;
+        text-decoration: none;
+        color: #3498db;
+        font-weight: 500;
+      }
+      
+      .nav-links a:hover {
+        color: #2980b9;
+      }
+      
+      .search-container {
+        background: #f8f9fa;
+        padding: 20px;
+        border-radius: 8px;
+        margin: 30px 0;
+        text-align: center;
+      }
+      
+      .search-container input {
+        width: 60%;
+        max-width: 500px;
+        padding: 12px;
+        font-size: 16px;
+        border: 2px solid #ddd;
+        border-radius: 25px;
+        outline: none;
+        transition: border-color 0.3s;
+      }
+      
+      .search-container input:focus {
+        border-color: #3498db;
+      }
+      
+      .filter-tags {
+        margin: 15px 0;
+      }
+      
+      .tag-filter {
+        margin: 5px;
+        padding: 8px 16px;
+        background: #ecf0f1;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+        transition: all 0.3s;
+        font-size: 14px;
+      }
+      
+      .tag-filter:hover {
+        background: #bdc3c7;
+      }
+      
+      .tag-filter.active {
+        background: #3498db;
+        color: white;
+      }
+      
+      .category-nav {
+        text-align: center;
+        margin: 30px 0;
+        padding: 20px;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        border-radius: 10px;
+      }
+      
+      .category-nav a {
+        color: white;
+        text-decoration: none;
+        margin: 0 15px;
+        font-size: 18px;
+        font-weight: 500;
+        transition: opacity 0.3s;
+      }
+      
+      .category-nav a:hover {
+        opacity: 0.8;
+      }
+      
+      .prompt-container {
+        background: white;
+        border: 1px solid #e1e5e9;
+        border-radius: 8px;
+        margin: 20px 0;
+        position: relative;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        transition: box-shadow 0.3s;
+      }
+      
+      .prompt-container:hover {
+        box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+      }
+      
+      .prompt-text {
+        padding: 20px;
+        font-family: 'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', Consolas, 'Courier New', monospace;
+        white-space: pre-line;
+        background: #f8f9fa;
+        margin: 0;
+        border-radius: 8px 8px 0 0;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+      
+      .copy-btn {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        padding: 8px 12px;
+        background: #3498db;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 12px;
+        font-weight: 500;
+        transition: background 0.3s;
+      }
+      
+      .copy-btn:hover {
+        background: #2980b9;
+      }
+      
+      .copy-btn.success {
+        background: #27ae60;
+      }
+      
+      h2 {
+        color: #2c3e50;
+        border-bottom: 2px solid #3498db;
+        padding-bottom: 10px;
+        margin-top: 40px;
+      }
+      
+      h3 {
+        color: #34495e;
+        margin-top: 30px;
+      }
+      
+      .tags {
+        color: #7f8c8d;
+        font-style: italic;
+        margin-bottom: 10px;
+      }
+      
+      .footer {
+        text-align: center;
+        margin-top: 60px;
+        padding: 30px 0;
+        border-top: 1px solid #ecf0f1;
+        color: #7f8c8d;
+      }
+      
+      @media (max-width: 768px) {
+        body {
+          padding: 10px;
+        }
+        
+        .search-container input {
+          width: 90%;
+        }
+        
+        .category-nav a {
+          display: block;
+          margin: 10px 0;
+        }
+        
+        .prompt-text {
+          font-size: 13px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="header">
+      <h1>{{ site.title | default: site.github.repository_name }}</h1>
+      <p>{{ site.description | default: site.github.project_tagline }}</p>
+    </div>
+
+    <div class="nav-links">
+      <a href="/">Home</a>
+      <a href="/prompt-library/">Browse Library</a>
+      <a href="{{ site.github.repository_url }}" target="_blank">GitHub</a>
+    </div>
+
+    <main>
+      {{ content }}
+    </main>
+
+    <footer class="footer">
+      <p>
+        © 2025 Prompt Engineering Library | 
+        <a href="{{ site.github.repository_url }}" target="_blank">View on GitHub</a>
+      </p>
+    </footer>
+
+    <script>
+      // Copy functionality
+      function copyPrompt(button) {
+        const promptText = button.previousElementSibling.textContent;
+        navigator.clipboard.writeText(promptText).then(() => {
+          const originalText = button.textContent;
+          button.textContent = 'Copied!';
+          button.classList.add('success');
+          setTimeout(() => {
+            button.textContent = originalText;
+            button.classList.remove('success');
+          }, 2000);
+        }).catch(err => {
+          console.error('Failed to copy: ', err);
+          // Fallback for older browsers
+          const textArea = document.createElement('textarea');
+          textArea.value = promptText;
+          document.body.appendChild(textArea);
+          textArea.select();
+          document.execCommand('copy');
+          document.body.removeChild(textArea);
+          button.textContent = 'Copied!';
+          setTimeout(() => {
+            button.textContent = 'Copy';
+          }, 2000);
+        });
+      }
+
+      // Search functionality
+      document.addEventListener('DOMContentLoaded', function() {
+        const searchBox = document.getElementById('searchBox');
+        if (searchBox) {
+          searchBox.addEventListener('input', function(e) {
+            const searchTerm = e.target.value.toLowerCase();
+            const prompts = document.querySelectorAll('.prompt-container');
+            const headers = document.querySelectorAll('h3');
+            
+            prompts.forEach(prompt => {
+              const text = prompt.textContent.toLowerCase();
+              const isVisible = text.includes(searchTerm);
+              prompt.style.display = isVisible ? 'block' : 'none';
+              
+              // Hide/show associated headers
+              const prevH3 = prompt.previousElementSibling;
+              if (prevH3 && prevH3.tagName === 'P') {
+                const h3 = prevH3.previousElementSibling;
+                if (h3 && h3.tagName === 'H3') {
+                  h3.style.display = isVisible ? 'block' : 'none';
+                  prevH3.style.display = isVisible ? 'block' : 'none';
+                }
+              }
+            });
+          });
+        }
+
+        // Tag filtering
+        document.querySelectorAll('.tag-filter').forEach(button => {
+          button.addEventListener('click', function() {
+            // Remove active class from all buttons
+            document.querySelectorAll('.tag-filter').forEach(btn => btn.classList.remove('active'));
+            // Add active class to clicked button
+            this.classList.add('active');
+            
+            const tag = this.dataset.tag;
+            const sections = document.querySelectorAll('h3');
+            
+            sections.forEach(section => {
+              const nextElement = section.nextElementSibling;
+              if (nextElement && nextElement.textContent.includes('Tags:')) {
+                const tags = nextElement.textContent.toLowerCase();
+                const promptContainer = nextElement.nextElementSibling;
+                
+                if (tag === 'all' || tags.includes(tag)) {
+                  section.style.display = 'block';
+                  nextElement.style.display = 'block';
+                  if (promptContainer) promptContainer.style.display = 'block';
+                } else {
+                  section.style.display = 'none';
+                  nextElement.style.display = 'none';
+                  if (promptContainer) promptContainer.style.display = 'none';
+                }
+              }
+            });
+          });
+        });
+
+        // Set 'All' as default active
+        const allButton = document.querySelector('[data-tag="all"]');
+        if (allButton) allButton.classList.add('active');
+      });
+    </script>
+  </body>
+</html>
