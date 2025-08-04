@@ -2,7 +2,7 @@
 title: "Prompt Engineering Library"
 description: "A curated collection of high-quality, token-efficient prompts for various professional and creative tasks"
 baseurl: ""
-url: "https://yourusername.github.io/prompt-engineering"
+url: "https://siena30.github.io/prompt-engineering"
 
 # GitHub Pages settings
 remote_theme: pages-themes/minimal@v0.2.0
@@ -11,8 +11,8 @@ plugins:
 
 # Site settings
 author: "Prompt Engineering Team"
-github_username: yourusername
-repository: yourusername/prompt-engineering
+github_username: siena30
+repository: siena30/prompt-engineering
 
 # Build settings
 markdown: kramdown
@@ -34,7 +34,7 @@ header_pages:
 
 # SEO settings
 twitter:
-  username: yourusername
+  username: siena30
   card: summary
 
 google_analytics: # Add your GA tracking ID here
