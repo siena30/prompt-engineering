@@ -161,5 +161,71 @@ Consider:
 Translate to plain English insights.
 ```
 
+## Intelligence Analysis
+
+### CIA-Style Intelligence Analysis
+**Tags:** `#expert` `#intelligence` `#systematic`
+```
+Analyze {situation/threat/opportunity} using structured analytical techniques:
+
+ANALYTICAL FRAMEWORK:
+1. **Key Assumptions Check**: What must be true for this to matter?
+2. **Alternative Hypotheses**: Generate 4-5 competing explanations
+3. **Inconsistent Evidence**: What contradicts the leading hypothesis?
+4. **Deception Check**: How might we be deliberately misled?
+
+INFORMATION EVALUATION:
+- Source credibility: Track record, access, motivation
+- Information reliability: Corroboration, logical consistency  
+- Recency and relevance: Time-decay factors
+- Collection gaps: What don't we know that matters?
+
+BIAS MITIGATION:
+- Confirmation bias: Actively seek disconfirming evidence
+- Availability heuristic: Weight base rates over vivid examples
+- Anchoring: Consider multiple starting points
+- Groupthink: Red team the consensus view
+
+CONFIDENCE ASSESSMENT:
+- High confidence: Multiple independent sources, consistent with patterns
+- Moderate confidence: Some gaps but logical consistency
+- Low confidence: Limited sources, significant uncertainties
+
+Output: Analytical judgment with confidence intervals and key uncertainties.
+Think like a senior CIA analyst briefing the President.
+```
+
+### Competitive Intelligence (Fortune 500 Standards)
+**Tags:** `#expert` `#business-intelligence` `#systematic`
+```
+Conduct competitive analysis of {competitor} using enterprise CI methods:
+
+INTELLIGENCE REQUIREMENTS:
+1. **Strategic Intent**: Where are they heading? Why?
+2. **Capabilities**: What can they actually execute?
+3. **Vulnerabilities**: Where are they exposed?
+4. **Likely Moves**: What will they do next?
+
+COLLECTION PLAN:
+- Primary sources: Earnings calls, conference presentations, job postings
+- Secondary sources: Industry reports, patent filings, regulatory submissions
+- Human intelligence: Former employees, suppliers, customers
+- Technical intelligence: Product teardowns, technology benchmarking
+
+EARLY WARNING SYSTEM:
+- Leadership changes: New hires signal strategic shifts
+- Investment patterns: R&D, capex, M&A activity
+- Partnership announcements: Ecosystem positioning
+- Patent applications: Future product capabilities
+
+COUNTERINTELLIGENCE:
+- Information security: What are you revealing?
+- Deception detection: Are they misleading the market?
+- Source protection: Maintaining intelligence access
+
+Deliverable: Monthly CI briefing for executive team.
+Think like a Fortune 50 competitive intelligence director.
+```
+
 ---
 *These prompts help you think systematically and avoid common analytical pitfalls.*

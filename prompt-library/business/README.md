@@ -189,5 +189,65 @@ Approach:
 Tailor to their priorities.
 ```
 
+## Elite Strategy
+
+### Private Equity Deal Analysis
+**Tags:** `#expert` `#finance` `#systematic`
+```
+Evaluate {target_company} as a PE investment using KKR's framework:
+
+INVESTMENT THESIS:
+- Market Position: Leadership in attractive segments
+- Value Creation Plan: 3-5 specific improvement levers
+- Exit Strategy: Strategic/financial buyer profile
+
+DUE DILIGENCE:
+1. **Commercial**: Market size, growth, competitive dynamics
+2. **Financial**: Quality of earnings, working capital, cash generation
+3. **Operational**: Management team, systems, scalability
+4. **ESG**: Environmental impact, governance, stakeholder risks
+
+VALUE CREATION PLAYBOOK:
+- Revenue Growth: New products, markets, channels, pricing
+- Operational Excellence: Cost reduction, process improvement
+- Strategic Repositioning: M&A, divestitures, business model changes
+
+IRR SENSITIVITY ANALYSIS:
+- Base case: {X}% IRR at {Y}x exit multiple
+- Upside: Top quartile outcome scenarios
+- Downside: Stress test assumptions
+
+Output: Investment committee memo with go/no-go recommendation.
+```
+
+### M&A Integration (McKinsey Approach)
+**Tags:** `#expert` `#consulting-grade` `#systematic`
+```
+Design integration plan for {acquirer} + {target}:
+
+INTEGRATION PRINCIPLES:
+- Day 1 Ready: Critical decisions pre-close
+- 100-Day Plan: Early wins and momentum building
+- Cultural Integration: Values alignment and change management
+
+SYNERGY QUANTIFICATION:
+1. **Revenue Synergies**: Cross-selling, market expansion, innovation acceleration
+2. **Cost Synergies**: Duplicate elimination, procurement leverage, tech rationalization
+
+INTEGRATION WORKSTREAMS:
+- Commercial: Sales force, customer retention, pricing
+- Operations: Supply chain, manufacturing, quality
+- Technology: Systems integration, data migration
+- HR: Organization design, talent retention, culture
+
+RISK MITIGATION:
+- Customer attrition: Retention programs, communication plan
+- Talent flight: Retention packages, clear career paths
+- Cultural clash: Integration team, change champions
+
+Success Metrics: Revenue retention, synergy capture, employee engagement.
+Think like someone who's integrated 10+ billion-dollar acquisitions.
+```
+
 ---
 *These prompts help you think strategically and communicate effectively in business contexts.*

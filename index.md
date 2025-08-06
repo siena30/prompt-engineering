@@ -6,6 +6,8 @@ description: Searchable collection of expert-level, token-efficient prompts
 
 # 🎯 Prompt Engineering Library
 
+*Expert-tier prompts for professionals who demand results*
+
 <div class="search-container">
   <input type="text" id="searchBox" placeholder="Search prompts by keyword or tag..." />
   <div class="filter-tags">
@@ -19,525 +21,234 @@ description: Searchable collection of expert-level, token-efficient prompts
   </div>
 </div>
 
-<div class="category-nav">
-  <a href="#coding">💻 Coding</a> |
-  <a href="#writing">✍️ Writing</a> |
-  <a href="#analysis">🔍 Analysis</a> |
-  <a href="#business">📊 Business</a> |
-  <a href="#creative">💡 Creative</a>
+---
+
+## 📚 Browse by Category
+
+<div class="category-grid">
+  <div class="category-card">
+    <h3><a href="prompt-library/coding/">💻 Coding</a></h3>
+    <p>Security-first system design, elite code review, threat modeling</p>
+    <span class="prompt-count">12+ prompts</span>
+  </div>
+  
+  <div class="category-card">
+    <h3><a href="prompt-library/business/">📊 Business</a></h3>
+    <p>BCG strategy frameworks, PE deal analysis, M&A integration</p>
+    <span class="prompt-count">15+ prompts</span>
+  </div>
+  
+  <div class="category-card">
+    <h3><a href="prompt-library/analysis/">🔍 Analysis</a></h3>
+    <p>CIA intelligence methods, competitive analysis, decision frameworks</p>
+    <span class="prompt-count">12+ prompts</span>
+  </div>
+  
+  <div class="category-card">
+    <h3><a href="prompt-library/writing/">✍️ Writing</a></h3>
+    <p>Expert content creation, persuasive frameworks, storytelling</p>
+    <span class="prompt-count">8+ prompts</span>
+  </div>
+  
+  <div class="category-card">
+    <h3><a href="prompt-library/creative/">💡 Creative</a></h3>
+    <p>Innovation frameworks, design thinking, breakthrough ideation</p>
+    <span class="prompt-count">8+ prompts</span>
+  </div>
+  
+  <div class="category-card">
+    <h3><a href="raw-prompts/">📋 Raw Prompts</a></h3>
+    <p>Copy-paste ready versions without formatting</p>
+    <span class="prompt-count">All prompts</span>
+  </div>
 </div>
 
 ---
 
-## 💻 Coding {#coding}
+## 🏆 Featured Expert Prompts
 
-### Secure System Design
-**Tags:** `expert` `security` `systematic`
-<div class="prompt-container">
-<div class="prompt-text">
-Design {system_type} for {scale} with security-first approach:
+### 🛡️ Security-First System Design
+*Design systems with zero-trust architecture and STRIDE threat modeling*  
+**Tags:** `expert` `security` `systematic`  
+→ [View in Coding Section](prompt-library/coding/#secure-system-design)
 
-SECURITY MODEL:
-- Authentication: {method} with MFA
-- Authorization: RBAC/ABAC permissions
-- Data encryption: At rest + in transit
-- Network security: Zero-trust architecture
+### 🎯 BCG Strategy Canvas  
+*Partner-level strategy development using BCG's proven frameworks*  
+**Tags:** `expert` `consulting-grade` `systematic`  
+→ [View in Business Section](prompt-library/business/#bcg-strategy-canvas)
 
-THREAT ANALYSIS:
-1. **Attack vectors**: STRIDE model application
-2. **Trust boundaries**: Data/service isolation
-3. **Failure modes**: Security + availability
-4. **Monitoring**: Anomaly detection, audit logs
-
-OUTPUT:
-- Security architecture diagram
-- Threat model with mitigations
-- Incident response playbook
-- Compliance checklist
-
-Think like a security-conscious Staff Engineer.
-</div>
-<button class="copy-btn" onclick="copyPrompt(this)">Copy</button>
-</div>
-
-### Security Code Review
-**Tags:** `expert` `security` `quick`
-<div class="prompt-container">
-<div class="prompt-text">
-Security review of {language} code:
-{code}
-
-SECURITY CHECKLIST:
-- Input validation: SQL injection, XSS, buffer overflow
-- Authentication: Session management, token security
-- Authorization: Access control, privilege escalation
-- Data protection: Sensitive data exposure, encryption
-- Error handling: Information disclosure prevention
-
-OUTPUT: Risk score (1-10) + top 3 vulnerabilities with fixes.
-</div>
-<button class="copy-btn" onclick="copyPrompt(this)">Copy</button>
-</div>
-
-### Debug Like a Detective
-**Tags:** `systematic` `template`
-<div class="prompt-container">
-<div class="prompt-text">
-Debug this issue systematically:
-Problem: {error_description}
-Code: {relevant_code}
-
-Method:
-1. Hypothesis (most likely cause)
-2. Test strategy
-3. Expected vs actual behavior
-4. Root cause + fix
-</div>
-<button class="copy-btn" onclick="copyPrompt(this)">Copy</button>
-</div>
-
-### Code Optimization Expert
-**Tags:** `expert` `template`
-<div class="prompt-container">
-<div class="prompt-text">
-Optimize this {language} code for {performance_metric}:
-{code}
-
-Think like a performance engineer:
-- Bottleneck identification
-- Algorithmic improvements
-- Language-specific optimizations
-- Benchmark validation approach
-</div>
-<button class="copy-btn" onclick="copyPrompt(this)">Copy</button>
-</div>
-
-### Feature Implementation Strategy
-**Tags:** `systematic` `template`
-<div class="prompt-container">
-<div class="prompt-text">
-Implement {feature} following best practices:
-
-Strategy:
-1. Break into 3-5 subtasks
-2. Define interfaces first
-3. Identify dependencies
-4. Test strategy
-5. Rollout plan
-
-Start with the most critical component.
-</div>
-<button class="copy-btn" onclick="copyPrompt(this)">Copy</button>
-</div>
-
-### Refactoring Master
-**Tags:** `expert` `template`
-<div class="prompt-container">
-<div class="prompt-text">
-Refactor this code following SOLID principles:
-{code}
-
-Output:
-- Current design issues
-- Refactored structure
-- Migration steps
-- Risk assessment
-</div>
-<button class="copy-btn" onclick="copyPrompt(this)">Copy</button>
-</div>
+### 🕵️ CIA Intelligence Analysis
+*Structured analytical techniques used by intelligence professionals*  
+**Tags:** `expert` `intelligence` `systematic`  
+→ [View in Analysis Section](prompt-library/analysis/#cia-style-intelligence)
 
 ---
 
-## ✍️ Writing {#writing}
+## 🚀 Quick Access
 
-### Expert Content Writer
-**Tags:** `expert` `template` `systematic`
-<div class="prompt-container">
-<div class="prompt-text">
-Write {content_type} about {topic} for {audience}.
+**For Developers:** [Security Code Review](prompt-library/coding/) • [Threat Modeling](prompt-library/coding/) • [Technical Debt](prompt-library/coding/)
 
-Expert approach:
-- Hook: Compelling opening
-- Structure: Clear, logical flow  
-- Voice: {tone} and engaging
-- Value: 3 key takeaways
-- CTA: Specific next step
+**For Business Leaders:** [Strategy Development](prompt-library/business/) • [M&A Integration](prompt-library/business/) • [Executive Communication](prompt-library/business/)
 
-Length: {word_count} words.
-</div>
-<button class="copy-btn" onclick="copyPrompt(this)">Copy</button>
-</div>
-
-### Story Structure Master
-**Tags:** `systematic` `template`
-<div class="prompt-container">
-<div class="prompt-text">
-Create a {story_type} with this premise: {idea}
-
-Structure:
-- Setup: Character + conflict in 50 words
-- Confrontation: 3 escalating challenges  
-- Resolution: Satisfying conclusion
-- Theme: Underlying message
-
-Target: {word_count} words, {tone} tone.
-</div>
-<button class="copy-btn" onclick="copyPrompt(this)">Copy</button>
-</div>
-
-### Persuasive Writing
-**Tags:** `expert` `template`
-<div class="prompt-container">
-<div class="prompt-text">
-Write persuasive {document_type} to convince {audience} to {action}.
-
-Framework:
-- Problem: Pain point they face
-- Solution: Your proposal
-- Evidence: 3 supporting points
-- Objections: Address top concern
-- Call: Clear, specific ask
-</div>
-<button class="copy-btn" onclick="copyPrompt(this)">Copy</button>
-</div>
-
-### Clear Explanation
-**Tags:** `systematic` `template`
-<div class="prompt-container">
-<div class="prompt-text">
-Explain {complex_topic} to {audience} in {format}.
-
-Method:
-- Analogy: Familiar comparison
-- Breakdown: 3-5 key components
-- Examples: Concrete illustrations
-- Summary: One-sentence takeaway
-
-Make it impossible to misunderstand.
-</div>
-<button class="copy-btn" onclick="copyPrompt(this)">Copy</button>
-</div>
-
----
-
-## 🔍 Analysis {#analysis}
-
-### First Principles Analysis
-**Tags:** `expert` `systematic` `template`
-<div class="prompt-container">
-<div class="prompt-text">
-Analyze {problem} using first principles thinking:
-
-Deconstruction:
-1. Core assumptions (what do we take for granted?)
-2. Fundamental truths (what's actually proven?)
-3. Build up: New approach from basics
-4. Comparison: Traditional vs first principles solution
-
-Think like Elon Musk approaching this fresh.
-</div>
-<button class="copy-btn" onclick="copyPrompt(this)">Copy</button>
-</div>
-
-### Root Cause Analysis
-**Tags:** `systematic` `template`
-<div class="prompt-container">
-<div class="prompt-text">
-Find the root cause of {problem}:
-
-5 Whys Method:
-- Why 1: {immediate_cause}
-- Why 2: What caused that?
-- Why 3: What caused that?
-- Why 4: What caused that?  
-- Why 5: What caused that?
-
-Root cause + prevention strategy.
-</div>
-<button class="copy-btn" onclick="copyPrompt(this)">Copy</button>
-</div>
-
-### Decision Analysis Framework
-**Tags:** `expert` `systematic` `template`
-<div class="prompt-container">
-<div class="prompt-text">
-Analyze this decision: {decision}
-
-Structure:
-- Stakes: What's at risk?
-- Options: 3-5 viable paths
-- Criteria: Success metrics (weighted)
-- Trade-offs: Each option's pros/cons
-- Recommendation: Best choice + reasoning
-- Reversibility: Can we change course?
-
-Decide like a top consultant.
-</div>
-<button class="copy-btn" onclick="copyPrompt(this)">Copy</button>
-</div>
-
----
-
-## 📊 Business {#business}
-
-### Business Strategy Framework
-**Tags:** `expert` `systematic` `template`
-<div class="prompt-container">
-<div class="prompt-text">
-Develop strategy for {business_context}:
-
-Strategic Analysis:
-- Market: Size, trends, opportunities
-- Competition: Key players, positioning
-- Capabilities: Strengths, gaps
-- Options: 3-5 strategic choices
-- Recommendation: Best path + rationale
-
-Think like a McKinsey partner.
-</div>
-<button class="copy-btn" onclick="copyPrompt(this)">Copy</button>
-</div>
-
-### Go-to-Market Strategy
-**Tags:** `expert` `template`
-<div class="prompt-container">
-<div class="prompt-text">
-Create GTM strategy for {product/service}:
-
-Framework:
-- Target: Ideal customer profile
-- Positioning: Unique value proposition
-- Channels: How to reach customers
-- Pricing: Strategy + rationale
-- Launch: 90-day execution plan
-
-Focus on fastest path to revenue.
-</div>
-<button class="copy-btn" onclick="copyPrompt(this)">Copy</button>
-</div>
-
-### Business Case Development
-**Tags:** `expert` `template`
-<div class="prompt-container">
-<div class="prompt-text">
-Build business case for {initiative}:
-
-Financial Model:
-- Investment: Upfront costs
-- Returns: Revenue impact
-- Timeline: Payback period
-- Scenarios: Conservative/optimistic
-- ROI: Expected return
-
-Risk assessment + recommendation.
-</div>
-<button class="copy-btn" onclick="copyPrompt(this)">Copy</button>
-</div>
-
----
-
-## 💡 Creative {#creative}
-
-### Divergent Thinking Catalyst
-**Tags:** `creative` `template` `systematic`
-<div class="prompt-container">
-<div class="prompt-text">
-Generate breakthrough ideas for {challenge}:
-
-Techniques:
-- What if: 10 impossible scenarios
-- Reverse: What if we did the opposite?
-- Combine: Mix unrelated concepts
-- Exaggerate: Take to extremes
-- Abstract: Core principles only
-
-Target: 50 ideas, no judgment. Quantity breeds quality.
-</div>
-<button class="copy-btn" onclick="copyPrompt(this)">Copy</button>
-</div>
-
-### Innovation Framework
-**Tags:** `expert` `creative` `template`
-<div class="prompt-container">
-<div class="prompt-text">
-Innovate on {existing_solution} for {target_audience}:
-
-IDEO Method:
-- Empathize: User pain points
-- Define: Core problem statement
-- Ideate: 20+ wild solutions
-- Prototype: Simplest testable version
-- Test: Key assumptions to validate
-
-Think like a design thinking expert.
-</div>
-<button class="copy-btn" onclick="copyPrompt(this)">Copy</button>
-</div>
-
-### SCAMPER Method
-**Tags:** `systematic` `template`
-<div class="prompt-container">
-<div class="prompt-text">
-Apply SCAMPER to {existing_solution}:
-
-- Substitute: What can be substituted?
-- Combine: What can be combined?
-- Adapt: What can be adapted?
-- Modify: What can be modified?
-- Put to other uses: Alternative applications?
-- Eliminate: What can be removed?
-- Reverse: What can be rearranged?
-
-Systematic innovation approach.
-</div>
-<button class="copy-btn" onclick="copyPrompt(this)">Copy</button>
-</div>
+**For Analysts:** [Decision Frameworks](prompt-library/analysis/) • [Competitive Intelligence](prompt-library/analysis/) • [Risk Assessment](prompt-library/analysis/)
 
 ---
 
 <style>
 .search-container {
-  margin: 20px 0;
+  margin: 30px 0;
   text-align: center;
+  background: #f8f9fa;
+  padding: 30px;
+  border-radius: 12px;
 }
 
 #searchBox {
-  width: 60%;
-  padding: 10px;
+  width: 70%;
+  max-width: 500px;
+  padding: 15px;
   font-size: 16px;
   border: 2px solid #ddd;
-  border-radius: 5px;
-  margin-bottom: 10px;
+  border-radius: 25px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+#searchBox:focus {
+  border-color: #3498db;
+  box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.1);
 }
 
 .filter-tags {
-  margin: 10px 0;
+  margin: 20px 0;
 }
 
 .tag-filter {
-  margin: 0 5px;
-  padding: 5px 10px;
-  background: #f0f0f0;
+  margin: 5px;
+  padding: 8px 16px;
+  background: #ecf0f1;
   border: none;
-  border-radius: 15px;
+  border-radius: 20px;
   cursor: pointer;
+  transition: all 0.3s;
+  font-size: 14px;
+}
+
+.tag-filter:hover {
+  background: #bdc3c7;
+  transform: translateY(-1px);
 }
 
 .tag-filter.active {
-  background: #007cba;
+  background: #3498db;
   color: white;
 }
 
-.category-nav {
-  text-align: center;
-  margin: 20px 0;
-  font-size: 18px;
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin: 30px 0;
 }
 
-.category-nav a {
-  text-decoration: none;
-  margin: 0 10px;
-}
-
-.prompt-container {
-  background: #f8f9fa;
-  border: 1px solid #e9ecef;
-  border-radius: 5px;
-  margin: 15px 0;
-  position: relative;
-}
-
-.prompt-text {
-  padding: 15px;
-  font-family: 'Courier New', monospace;
-  white-space: pre-line;
+.category-card {
   background: white;
-  margin: 0;
-  border-radius: 5px 5px 0 0;
+  border: 1px solid #e1e5e9;
+  border-radius: 12px;
+  padding: 25px;
+  text-align: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
-.copy-btn {
-  position: absolute;
-  top: 5px;
-  right: 5px;
-  padding: 5px 10px;
-  background: #007cba;
+.category-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+  border-color: #3498db;
+}
+
+.category-card h3 {
+  margin: 0 0 15px 0;
+  font-size: 1.4em;
+}
+
+.category-card h3 a {
+  color: #2c3e50;
+  text-decoration: none;
+}
+
+.category-card h3 a:hover {
+  color: #3498db;
+}
+
+.category-card p {
+  color: #7f8c8d;
+  margin: 0 0 15px 0;
+  line-height: 1.5;
+}
+
+.prompt-count {
+  background: #3498db;
   color: white;
-  border: none;
-  border-radius: 3px;
-  cursor: pointer;
-  font-size: 12px;
+  padding: 4px 12px;
+  border-radius: 15px;
+  font-size: 0.85em;
+  font-weight: 500;
 }
 
-.copy-btn:hover {
-  background: #005a87;
-}
-
-.hidden {
-  display: none;
+@media (max-width: 768px) {
+  .category-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  #searchBox {
+    width: 90%;
+  }
+  
+  .category-card {
+    padding: 20px;
+  }
 }
 </style>
 
 <script>
-function copyPrompt(button) {
-  const promptText = button.previousElementSibling.textContent;
-  navigator.clipboard.writeText(promptText).then(() => {
-    const originalText = button.textContent;
-    button.textContent = 'Copied!';
-    button.style.background = '#28a745';
-    setTimeout(() => {
-      button.textContent = originalText;
-      button.style.background = '#007cba';
-    }, 2000);
-  });
-}
-
-// Search functionality
-document.getElementById('searchBox').addEventListener('input', function(e) {
-  const searchTerm = e.target.value.toLowerCase();
-  const prompts = document.querySelectorAll('.prompt-container');
-  
-  prompts.forEach(prompt => {
-    const text = prompt.textContent.toLowerCase();
-    if (text.includes(searchTerm)) {
-      prompt.style.display = 'block';
+// Search functionality - redirect to appropriate category
+document.getElementById('searchBox').addEventListener('keypress', function(e) {
+  if (e.key === 'Enter') {
+    const query = e.target.value.toLowerCase();
+    
+    // Smart category detection
+    if (query.includes('code') || query.includes('security') || query.includes('debug')) {
+      window.location.href = 'prompt-library/coding/';
+    } else if (query.includes('business') || query.includes('strategy') || query.includes('mckinsey')) {
+      window.location.href = 'prompt-library/business/';
+    } else if (query.includes('analysis') || query.includes('decision') || query.includes('cia')) {
+      window.location.href = 'prompt-library/analysis/';
+    } else if (query.includes('writing') || query.includes('content') || query.includes('story')) {
+      window.location.href = 'prompt-library/writing/';
+    } else if (query.includes('creative') || query.includes('innovation') || query.includes('design')) {
+      window.location.href = 'prompt-library/creative/';
     } else {
-      prompt.style.display = 'none';
+      // General search - go to raw prompts for full-text search
+      window.location.href = 'raw-prompts/';
+    }
+  }
+});
+
+// Tag filtering - redirect to relevant category
+document.querySelectorAll('.tag-filter').forEach(button => {
+  button.addEventListener('click', function() {
+    const tag = this.dataset.tag;
+    
+    if (tag === 'security') {
+      window.location.href = 'prompt-library/coding/';
+    } else if (tag === 'expert') {
+      window.location.href = 'prompt-library/business/';
+    } else if (tag === 'creative') {
+      window.location.href = 'prompt-library/creative/';
+    } else {
+      window.location.href = 'prompt-library/';
     }
   });
 });
-
-// Tag filtering
-document.querySelectorAll('.tag-filter').forEach(button => {
-  button.addEventListener('click', function() {
-    // Remove active class from all buttons
-    document.querySelectorAll('.tag-filter').forEach(btn => btn.classList.remove('active'));
-    // Add active class to clicked button
-    this.classList.add('active');
-    
-    const tag = this.dataset.tag;
-    const sections = document.querySelectorAll('h3');
-    
-    sections.forEach(section => {
-      const nextElement = section.nextElementSibling;
-      if (nextElement && nextElement.textContent.includes('Tags:')) {
-        const tags = nextElement.textContent.toLowerCase();
-        const promptContainer = nextElement.nextElementSibling;
-        
-        if (tag === 'all' || tags.includes(tag)) {
-          section.style.display = 'block';
-          nextElement.style.display = 'block';
-          promptContainer.style.display = 'block';
-        } else {
-          section.style.display = 'none';
-          nextElement.style.display = 'none';
-          promptContainer.style.display = 'none';
-        }
-      }
-    });
-  });
-});
-
-// Set 'All' as default active
-document.querySelector('[data-tag="all"]').classList.add('active');
 </script>

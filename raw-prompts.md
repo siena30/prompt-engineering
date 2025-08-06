@@ -1,102 +1,267 @@
 ---
 layout: default
 title: Raw Prompts - Copy Ready
-description: Plain text versions of all prompts optimized for easy copying
+description: Plain text versions of all expert prompts optimized for easy copying
 ---
 
 # 📋 Raw Prompts - Copy Ready
 
-*Plain text versions of all prompts without formatting - perfect for copying and pasting directly into your AI tool.*
+*Expert-tier prompts in plain text format - ready to copy and paste into your AI tool.*
 
 ---
 
 ## 💻 CODING PROMPTS
 
-### System Design Expert
+### Secure System Design
 ```
-Design a {system_type} system for {use_case}. Think like a senior architect:
-- Core components and their interactions
-- Key design decisions with trade-offs
-- Scalability and performance considerations
-- 3 biggest risks and mitigation strategies
+Design {system_type} for {scale} with security-first approach:
 
-Output: Architecture diagram + implementation priority list.
+SECURITY MODEL:
+- Authentication: {method} with MFA
+- Authorization: RBAC/ABAC permissions
+- Data encryption: At rest + in transit
+- Network security: Zero-trust architecture
+
+THREAT ANALYSIS:
+1. Attack vectors: STRIDE model application
+2. Trust boundaries: Data/service isolation
+3. Failure modes: Security + availability
+4. Monitoring: Anomaly detection, audit logs
+
+OUTPUT:
+- Security architecture diagram
+- Threat model with mitigations
+- Incident response playbook
+- Compliance checklist
+
+Think like a security-conscious Staff Engineer.
 ```
 
-### Code Review Like a 10x Engineer
+### Security Code Review
 ```
-Review this code with expert-level scrutiny:
+Security review of {language} code:
 {code}
 
-Focus on: correctness, performance, maintainability, security. Rate 1-10 and provide top 3 improvements.
+SECURITY CHECKLIST:
+- Input validation: SQL injection, XSS, buffer overflow
+- Authentication: Session management, token security
+- Authorization: Access control, privilege escalation
+- Data protection: Sensitive data exposure, encryption
+- Error handling: Information disclosure prevention
+
+OUTPUT: Risk score (1-10) + top 3 vulnerabilities with fixes.
 ```
 
-### Debug Like a Detective
+### Threat Modeling (Microsoft STRIDE)
 ```
-Debug this issue systematically:
-Problem: {error_description}
-Code: {relevant_code}
+Apply STRIDE threat model to {system/feature}:
 
-Method:
-1. Hypothesis (most likely cause)
-2. Test strategy
-3. Expected vs actual behavior
-4. Root cause + fix
-```
+THREAT CATEGORIES:
+- Spoofing: Identity verification weaknesses
+- Tampering: Data integrity violations
+- Repudiation: Audit trail gaps
+- Information Disclosure: Data exposure risks
+- Denial of Service: Availability attacks
+- Elevation of Privilege: Access control bypass
 
-### Code Optimization Expert
-```
-Optimize this {language} code for {performance_metric}:
-{code}
-
-Think like a performance engineer:
-- Bottleneck identification
-- Algorithmic improvements
-- Language-specific optimizations
-- Benchmark validation approach
+OUTPUT: Risk matrix + security controls for top 5 threats.
 ```
 
-### Feature Implementation Strategy
+### Technical Debt Quantification (Facebook Method)
 ```
-Implement {feature} following best practices:
+Quantify technical debt in {codebase/system} using Facebook's methodology:
 
-Strategy:
-1. Break into 3-5 subtasks
-2. Define interfaces first
-3. Identify dependencies
-4. Test strategy
-5. Rollout plan
+DEBT TAXONOMY:
+1. Code Debt: Complexity, duplication, architecture violations
+2. Infrastructure Debt: Outdated dependencies, configuration drift
+3. Test Debt: Coverage gaps, flaky tests, integration holes
+4. Documentation Debt: Outdated docs, missing ADRs, tribal knowledge
 
-Start with the most critical component.
-```
+MEASUREMENT FRAMEWORK:
+- Interest: Developer velocity impact (story points/sprint)
+- Principal: Engineering effort to fix (person-months)
+- Risk: Probability of causing production issues
 
-### Refactoring Master
-```
-Refactor this code following SOLID principles:
-{code}
+PRIORITIZATION MATRIX:
+- High Interest + High Risk = Pay down immediately
+- High Interest + Low Risk = Gradual improvement
+- Low Interest + High Risk = Risk mitigation focus
+- Low Interest + Low Risk = Defer
 
-Output:
-- Current design issues
-- Refactored structure
-- Migration steps
-- Risk assessment
+Output: ROI calculation for debt paydown vs new features.
 ```
 
-### Error Resolution
-```
-Fix this error in {language}:
-{error_message}
-{code_context}
+---
 
-Provide: cause + solution + prevention tip.
+## 📊 BUSINESS PROMPTS
+
+### BCG Strategy Canvas (Partner-Level)
+```
+Develop strategy for {company/situation} using BCG's advanced frameworks:
+
+STRATEGIC HYPOTHESIS:
+- Where to play: Market segments, geographies, customer types
+- How to win: Sustainable competitive advantage sources
+- What capabilities: Assets, skills, processes required
+
+ADVANTAGE STAIRCASE:
+1. Table Stakes: Minimum requirements to compete
+2. Differentiators: What makes you better today
+3. Game Changers: What could make you win long-term
+
+SCENARIO MODELING:
+- Bull case: Everything goes right (P10 scenario)
+- Base case: Most likely outcome (P50 scenario)
+- Bear case: Major challenges (P90 scenario)
+
+VALUE CREATION LEVERS:
+- Revenue optimization: Pricing, mix, volume
+- Cost transformation: Fixed cost flexibility, variable cost efficiency
+- Capital efficiency: Working capital, asset utilization
+- Portfolio optimization: Core/growth/emerging business balance
+
+COMPETITIVE DYNAMICS:
+- Red ocean: Direct competition, zero-sum dynamics
+- Blue ocean: Uncontested market space creation
+- Game theory: Competitor response prediction
+
+Deliverable: Strategy deck ready for board presentation.
+Think like a BCG Partner pitching to a Fortune 50 CEO.
 ```
 
-### Code Explanation
+### Private Equity Deal Analysis
 ```
-Explain this {language} code like I'm a {skill_level} developer:
-{code}
+Evaluate {target_company} as a PE investment using KKR's framework:
 
-Focus on: purpose, key concepts, gotchas.
+INVESTMENT THESIS:
+- Market Position: Leadership in attractive segments
+- Value Creation Plan: 3-5 specific improvement levers
+- Exit Strategy: Strategic/financial buyer profile
+
+DUE DILIGENCE:
+1. Commercial: Market size, growth, competitive dynamics
+2. Financial: Quality of earnings, working capital, cash generation
+3. Operational: Management team, systems, scalability
+4. ESG: Environmental impact, governance, stakeholder risks
+
+VALUE CREATION PLAYBOOK:
+- Revenue Growth: New products, markets, channels, pricing
+- Operational Excellence: Cost reduction, process improvement
+- Strategic Repositioning: M&A, divestitures, business model changes
+
+IRR SENSITIVITY ANALYSIS:
+- Base case: {X}% IRR at {Y}x exit multiple
+- Upside: Top quartile outcome scenarios
+- Downside: Stress test assumptions
+
+Output: Investment committee memo with go/no-go recommendation.
+```
+
+### M&A Integration (McKinsey Approach)
+```
+Design integration plan for {acquirer} + {target}:
+
+INTEGRATION PRINCIPLES:
+- Day 1 Ready: Critical decisions pre-close
+- 100-Day Plan: Early wins and momentum building
+- Cultural Integration: Values alignment and change management
+
+SYNERGY QUANTIFICATION:
+1. Revenue Synergies: Cross-selling, market expansion, innovation acceleration
+2. Cost Synergies: Duplicate elimination, procurement leverage, tech rationalization
+
+INTEGRATION WORKSTREAMS:
+- Commercial: Sales force, customer retention, pricing
+- Operations: Supply chain, manufacturing, quality
+- Technology: Systems integration, data migration
+- HR: Organization design, talent retention, culture
+
+RISK MITIGATION:
+- Customer attrition: Retention programs, communication plan
+- Talent flight: Retention packages, clear career paths
+- Cultural clash: Integration team, change champions
+
+Success Metrics: Revenue retention, synergy capture, employee engagement.
+Think like someone who's integrated 10+ billion-dollar acquisitions.
+```
+
+---
+
+## 🔍 ANALYSIS PROMPTS
+
+### CIA-Style Intelligence Analysis
+```
+Analyze {situation/threat/opportunity} using structured analytical techniques:
+
+ANALYTICAL FRAMEWORK:
+1. Key Assumptions Check: What must be true for this to matter?
+2. Alternative Hypotheses: Generate 4-5 competing explanations
+3. Inconsistent Evidence: What contradicts the leading hypothesis?
+4. Deception Check: How might we be deliberately misled?
+
+INFORMATION EVALUATION:
+- Source credibility: Track record, access, motivation
+- Information reliability: Corroboration, logical consistency
+- Recency and relevance: Time-decay factors
+- Collection gaps: What don't we know that matters?
+
+BIAS MITIGATION:
+- Confirmation bias: Actively seek disconfirming evidence
+- Availability heuristic: Weight base rates over vivid examples
+- Anchoring: Consider multiple starting points
+- Groupthink: Red team the consensus view
+
+CONFIDENCE ASSESSMENT:
+- High confidence: Multiple independent sources, consistent with patterns
+- Moderate confidence: Some gaps but logical consistency
+- Low confidence: Limited sources, significant uncertainties
+
+Output: Analytical judgment with confidence intervals and key uncertainties.
+Think like a senior CIA analyst briefing the President.
+```
+
+### Competitive Intelligence (Fortune 500 Standards)
+```
+Conduct competitive analysis of {competitor} using enterprise CI methods:
+
+INTELLIGENCE REQUIREMENTS:
+1. Strategic Intent: Where are they heading? Why?
+2. Capabilities: What can they actually execute?
+3. Vulnerabilities: Where are they exposed?
+4. Likely Moves: What will they do next?
+
+COLLECTION PLAN:
+- Primary sources: Earnings calls, conference presentations, job postings
+- Secondary sources: Industry reports, patent filings, regulatory submissions
+- Human intelligence: Former employees, suppliers, customers
+- Technical intelligence: Product teardowns, technology benchmarking
+
+EARLY WARNING SYSTEM:
+- Leadership changes: New hires signal strategic shifts
+- Investment patterns: R&D, capex, M&A activity
+- Partnership announcements: Ecosystem positioning
+- Patent applications: Future product capabilities
+
+COUNTERINTELLIGENCE:
+- Information security: What are you revealing?
+- Deception detection: Are they misleading the market?
+- Source protection: Maintaining intelligence access
+
+Deliverable: Monthly CI briefing for executive team.
+Think like a Fortune 50 competitive intelligence director.
+```
+
+### First Principles Analysis
+```
+Analyze {problem} using first principles thinking:
+
+DECONSTRUCTION:
+1. Core assumptions (what do we take for granted?)
+2. Fundamental truths (what's actually proven?)
+3. Build up: New approach from basics
+4. Comparison: Traditional vs first principles solution
+
+Think like Elon Musk approaching this fresh.
 ```
 
 ---
@@ -109,47 +274,12 @@ Write {content_type} about {topic} for {audience}.
 
 Expert approach:
 - Hook: Compelling opening
-- Structure: Clear, logical flow  
+- Structure: Clear, logical flow
 - Voice: {tone} and engaging
 - Value: 3 key takeaways
 - CTA: Specific next step
 
 Length: {word_count} words.
-```
-
-### Content Optimization
-```
-Improve this content for maximum impact:
-{content}
-
-Focus on: clarity, engagement, persuasion. Provide before/after comparison.
-```
-
-### Story Structure Master
-```
-Create a {story_type} with this premise: {idea}
-
-Structure:
-- Setup: Character + conflict in 50 words
-- Confrontation: 3 escalating challenges  
-- Resolution: Satisfying conclusion
-- Theme: Underlying message
-
-Target: {word_count} words, {tone} tone.
-```
-
-### Character Development
-```
-Develop a compelling character for {genre}:
-
-Core elements:
-- Motivation: What drives them?
-- Flaw: Internal weakness
-- Growth: How they change
-- Voice: Unique speaking style
-- Backstory: 3 formative events
-
-Make them unforgettable.
 ```
 
 ### Persuasive Writing
@@ -164,358 +294,22 @@ Framework:
 - Call: Clear, specific ask
 ```
 
-### Clear Explanation
+### Story Structure Master
 ```
-Explain {complex_topic} to {audience} in {format}.
-
-Method:
-- Analogy: Familiar comparison
-- Breakdown: 3-5 key components
-- Examples: Concrete illustrations
-- Summary: One-sentence takeaway
-
-Make it impossible to misunderstand.
-```
-
-### Dialogue That Sings
-```
-Write dialogue between {character_1} and {character_2} about {topic}.
-
-Requirements:
-- Distinct voices for each character
-- Subtext: What's not being said
-- Conflict: Underlying tension
-- Progression: Conversation evolves
-- Authenticity: Sounds real
-
-Length: {line_count} exchanges.
-```
-
-### Compelling Headlines
-```
-Create 10 headlines for {content} targeting {audience}.
-
-Formulas to use:
-- Numbers: "X Ways to..."
-- Questions: "How/Why/What..."  
-- Benefits: "Get/Achieve/Discover..."
-- Urgency: "Now/Today/Finally..."
-- Curiosity: "Secret/Truth/Reason..."
-
-Make each irresistible.
-```
-
----
-
-## 🔍 ANALYSIS PROMPTS
-
-### First Principles Analysis
-```
-Analyze {problem} using first principles thinking:
-
-Deconstruction:
-1. Core assumptions (what do we take for granted?)
-2. Fundamental truths (what's actually proven?)
-3. Build up: New approach from basics
-4. Comparison: Traditional vs first principles solution
-
-Think like Elon Musk approaching this fresh.
-```
-
-### Root Cause Analysis
-```
-Find the root cause of {problem}:
-
-5 Whys Method:
-- Why 1: {immediate_cause}
-- Why 2: What caused that?
-- Why 3: What caused that?
-- Why 4: What caused that?  
-- Why 5: What caused that?
-
-Root cause + prevention strategy.
-```
-
-### Decision Analysis Framework
-```
-Analyze this decision: {decision}
+Create a {story_type} with this premise: {idea}
 
 Structure:
-- Stakes: What's at risk?
-- Options: 3-5 viable paths
-- Criteria: Success metrics (weighted)
-- Trade-offs: Each option's pros/cons
-- Recommendation: Best choice + reasoning
-- Reversibility: Can we change course?
+- Setup: Character + conflict in 50 words
+- Confrontation: 3 escalating challenges
+- Resolution: Satisfying conclusion
+- Theme: Underlying message
 
-Decide like a top consultant.
-```
-
-### Scenario Planning
-```
-Plan for {situation} across multiple scenarios:
-
-Scenarios:
-- Best case: What if everything goes right?
-- Base case: Most likely outcome
-- Worst case: What could go wrong?
-
-For each: triggers, implications, response strategy.
-```
-
-### Research Strategy
-```
-Research {topic} comprehensively:
-
-Method:
-1. Key questions (5 most important)
-2. Sources: Primary + secondary
-3. Search strategy
-4. Quality filters
-5. Synthesis approach
-
-Output format: {executive_summary/report/brief}
-```
-
-### Comparative Analysis
-```
-Compare {option_a} vs {option_b} for {use_case}:
-
-Framework:
-- Criteria: What matters most?
-- Scoring: Rate each option (1-10)
-- Trade-offs: Where they differ
-- Context: When to choose each
-- Recommendation: Winner + reasoning
-
-Be decisively analytical.
-```
-
-### Argument Evaluation
-```
-Evaluate this argument for logical soundness:
-{argument}
-
-Check for:
-- Logical fallacies
-- Evidence quality  
-- Missing assumptions
-- Counter-arguments
-- Strength rating (1-10)
-
-Think like a philosophy professor.
-```
-
-### Bias Detection
-```
-Identify potential biases in {analysis/decision/viewpoint}:
-
-Common biases to check:
-- Confirmation bias
-- Anchoring bias
-- Availability heuristic
-- Sunk cost fallacy
-- Groupthink
-
-Mitigation strategies for each found bias.
-```
-
-### Data Insight Extraction
-```
-Extract insights from this data: {data_description}
-
-Analysis approach:
-- Patterns: What trends emerge?
-- Outliers: What's unusual?
-- Correlations: What connects?
-- Implications: So what?
-- Actions: Now what?
-
-Think like a data scientist.
-```
-
-### Statistical Reasoning
-```
-Interpret these statistics: {statistics}
-
-Consider:
-- Sample size and quality
-- Statistical significance
-- Practical significance  
-- Confounding factors
-- Limitations
-
-Translate to plain English insights.
-```
-
----
-
-## 📊 BUSINESS PROMPTS
-
-### Business Strategy Framework
-```
-Develop strategy for {business_context}:
-
-Strategic Analysis:
-- Market: Size, trends, opportunities
-- Competition: Key players, positioning
-- Capabilities: Strengths, gaps
-- Options: 3-5 strategic choices
-- Recommendation: Best path + rationale
-
-Think like a McKinsey partner.
-```
-
-### Go-to-Market Strategy
-```
-Create GTM strategy for {product/service}:
-
-Framework:
-- Target: Ideal customer profile
-- Positioning: Unique value proposition
-- Channels: How to reach customers
-- Pricing: Strategy + rationale
-- Launch: 90-day execution plan
-
-Focus on fastest path to revenue.
-```
-
-### Process Optimization
-```
-Optimize {business_process}:
-
-Current State:
-- Map existing workflow
-- Identify bottlenecks
-- Measure key metrics
-
-Future State:
-- Streamlined process
-- Automation opportunities
-- Expected improvements
-
-Implementation roadmap.
-```
-
-### Project Planning
-```
-Plan {project} for successful delivery:
-
-Structure:
-- Objectives: Clear, measurable goals
-- Scope: What's in/out
-- Timeline: Key milestones
-- Resources: Team, budget, tools
-- Risks: Top 5 + mitigation
-- Success: How we'll measure
-
-Think execution-first.
-```
-
-### Business Case Development
-```
-Build business case for {initiative}:
-
-Financial Model:
-- Investment: Upfront costs
-- Returns: Revenue impact
-- Timeline: Payback period
-- Scenarios: Conservative/optimistic
-- ROI: Expected return
-
-Risk assessment + recommendation.
-```
-
-### Cost-Benefit Analysis
-```
-Analyze costs vs benefits of {decision}:
-
-Costs:
-- Direct: Obvious expenses
-- Indirect: Hidden costs
-- Opportunity: What we give up
-
-Benefits:
-- Quantifiable: Measurable gains
-- Qualitative: Hard-to-measure value
-
-Net analysis + go/no-go recommendation.
-```
-
-### Team Problem Solving
-```
-Address team issue: {situation}
-
-Approach:
-- Root cause: What's really happening?
-- Stakeholders: Who's affected?
-- Options: 3-5 intervention strategies
-- Implementation: Action steps
-- Follow-up: How to monitor progress
-
-Lead with empathy and clarity.
-```
-
-### Performance Analysis
-```
-Analyze performance of {team/individual/department}:
-
-Metrics Review:
-- Current: Where we are
-- Target: Where we should be
-- Gap: What's missing
-- Drivers: Why the gap exists
-- Actions: How to close it
-
-Focus on improvement, not blame.
-```
-
-### Executive Summary
-```
-Write executive summary for {topic}:
-
-Structure (1 page max):
-- Problem: What needs attention
-- Solution: Recommended approach  
-- Impact: Business value
-- Investment: Resources needed
-- Timeline: Key dates
-- Decision: What you need from them
-
-Make every word count.
-```
-
-### Stakeholder Communication
-```
-Communicate {message} to {stakeholder_group}:
-
-Approach:
-- Context: Why this matters to them
-- Message: Core information
-- Evidence: Supporting data
-- Impact: What changes for them
-- Next steps: What they should do
-
-Tailor to their priorities.
+Target: {word_count} words, {tone} tone.
 ```
 
 ---
 
 ## 💡 CREATIVE PROMPTS
-
-### Divergent Thinking Catalyst
-```
-Generate breakthrough ideas for {challenge}:
-
-Techniques:
-- What if: 10 impossible scenarios
-- Reverse: What if we did the opposite?
-- Combine: Mix unrelated concepts
-- Exaggerate: Take to extremes
-- Abstract: Core principles only
-
-Target: 50 ideas, no judgment. Quantity breeds quality.
-```
 
 ### Innovation Framework
 ```
@@ -529,89 +323,6 @@ IDEO Method:
 - Test: Key assumptions to validate
 
 Think like a design thinking expert.
-```
-
-### Lateral Thinking Prompts
-```
-Solve {problem} using lateral thinking:
-
-Techniques:
-- Random word: Connect to {random_object}
-- Metaphor: If this were {unrelated_domain}...
-- Constraint: What if we couldn't use {obvious_solution}?
-- Role play: How would {creative_person} approach this?
-- Provocation: What if the opposite were true?
-
-Generate unexpected solutions.
-```
-
-### Creative Constraints
-```
-Create {creative_output} with these constraints:
-- Must include: {required_element}
-- Cannot use: {forbidden_element}  
-- Limit: {constraint_limit}
-- Style: {creative_direction}
-- Audience: {target_group}
-
-Constraints breed creativity.
-```
-
-### Concept Evolution
-```
-Evolve this concept: {initial_idea}
-
-Development stages:
-1. Core: Essential elements
-2. Expand: Add complementary features
-3. Combine: Merge with other ideas
-4. Refine: Polish the best version
-5. Surprise: Add unexpected twist
-
-Transform good into extraordinary.
-```
-
-### Creative Brief Generator
-```
-Create brief for {creative_project}:
-
-Framework:
-- Objective: What we want to achieve
-- Audience: Who we're speaking to
-- Message: Core communication 
-- Tone: Emotional direction
-- Constraints: Practical limits
-- Inspiration: Reference points
-
-Set up for creative success.
-```
-
-### Story Spark Generator
-```
-Story starter: What if {impossible_scenario} happened in {normal_setting}?
-
-Elements to explore:
-- Character: Who's affected?
-- Conflict: What goes wrong?
-- Stakes: What's at risk?
-- Twist: Unexpected turn
-- Resolution: How it ends
-
-Build from this foundation.
-```
-
-### Narrative Structure Remix
-```
-Tell {familiar_story} using {unconventional_structure}:
-
-Structures to try:
-- Reverse chronology
-- Multiple perspectives  
-- Nested stories
-- Interactive choices
-- Stream of consciousness
-
-Make the familiar feel new.
 ```
 
 ### SCAMPER Method
@@ -629,19 +340,20 @@ Apply SCAMPER to {existing_solution}:
 Systematic innovation approach.
 ```
 
-### Future-Back Thinking
+### Divergent Thinking Catalyst
 ```
-Imagine {topic} in 2035, then work backwards:
+Generate breakthrough ideas for {challenge}:
 
-Future Vision:
-- Technology: What's possible?
-- Society: How have we changed?
-- Problems: What challenges exist?
-- Solutions: Breakthrough innovations
+Techniques:
+- What if: 10 impossible scenarios
+- Reverse: What if we did the opposite?
+- Combine: Mix unrelated concepts
+- Exaggerate: Take to extremes
+- Abstract: Core principles only
 
-Reverse engineer the path from now to then.
+Target: 50 ideas, no judgment. Quantity breeds quality.
 ```
 
 ---
 
-*Copy any prompt above and replace the `{variables}` with your specific context. No formatting needed - these are ready to paste directly into your AI tool.*
+*Copy any prompt above and replace the `{variables}` with your specific context. These prompts are optimized for immediate use with minimal setup.*

@@ -183,5 +183,37 @@ Explain this {language} code like I'm a {skill_level} developer:
 Focus on: purpose, key concepts, gotchas.
 ```
 
+## Elite Engineering
+
+### Technical Debt Quantification (Facebook Method)
+**Tags:** `#expert` `#systematic` `#technical-debt`
+```
+Quantify technical debt in {codebase/system} using Facebook's methodology:
+
+DEBT TAXONOMY:
+1. **Code Debt**: Complexity, duplication, architecture violations
+2. **Infrastructure Debt**: Outdated dependencies, configuration drift  
+3. **Test Debt**: Coverage gaps, flaky tests, integration holes
+4. **Documentation Debt**: Outdated docs, missing ADRs, tribal knowledge
+
+MEASUREMENT FRAMEWORK:
+- **Interest**: Developer velocity impact (story points/sprint)
+- **Principal**: Engineering effort to fix (person-months)
+- **Risk**: Probability of causing production issues
+
+PRIORITIZATION MATRIX:
+- High Interest + High Risk = Pay down immediately
+- High Interest + Low Risk = Gradual improvement
+- Low Interest + High Risk = Risk mitigation focus
+- Low Interest + Low Risk = Defer
+
+BUSINESS IMPACT:
+- Feature delivery slowdown: {X}% per quarter
+- Incident rate correlation: {Y} incidents/month
+- Developer satisfaction impact: Net Promoter Score
+
+Output: ROI calculation for debt paydown vs new features.
+```
+
 ---
 *Use these prompts by replacing `{variables}` with your specific context.*
