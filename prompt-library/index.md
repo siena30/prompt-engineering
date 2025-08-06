@@ -21,6 +21,8 @@ A curated collection of high-quality, token-efficient prompts for various tasks.
 - **[Business](./business/)** - Strategy, planning, decision-making
 - **[Creative](./creative/)** - Brainstorming, innovation, ideation
 - **[AI Optimization](./ai-optimization/)** - Model-specific prompt engineering techniques
+- **[Prompt Workflows](./prompt-workflows/)** - Advanced chaining and combination strategies
+- **[Advanced Reasoning](./advanced-reasoning/)** - Tree-of-Thought, Constitutional AI, Bayesian thinking
 
 ## 🏷️ Tag System
 Each prompt includes tags for easy searching:

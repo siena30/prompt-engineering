@@ -63,6 +63,18 @@ description: Searchable collection of expert-level, token-efficient prompts
   </div>
   
   <div class="category-card">
+    <h3><a href="prompt-library/prompt-workflows/">🔄 Prompt Workflows</a></h3>
+    <p>Sequential chaining, parallel processing, hierarchical decomposition</p>
+    <span class="prompt-count">15+ prompts</span>
+  </div>
+  
+  <div class="category-card">
+    <h3><a href="prompt-library/advanced-reasoning/">🧠 Advanced Reasoning</a></h3>
+    <p>Tree-of-Thought, Constitutional AI, Bayesian thinking, analogical reasoning</p>
+    <span class="prompt-count">14+ prompts</span>
+  </div>
+  
+  <div class="category-card">
     <h3><a href="raw-prompts">📋 Raw Prompts</a></h3>
     <p>Copy-paste ready versions without formatting</p>
     <span class="prompt-count">All prompts</span>
@@ -92,6 +104,16 @@ description: Searchable collection of expert-level, token-efficient prompts
 *Leverage Claude's self-reflection for higher quality outputs*  
 **Tags:** `expert` `claude-optimized` `systematic`  
 → [View in AI Optimization Section](prompt-library/ai-optimization/#claude-constitutional-framework)
+
+### 🔄 Multi-Stage Analysis Pipeline
+*Execute complex tasks through systematic sequential prompting*  
+**Tags:** `expert` `workflow` `systematic`  
+→ [View in Workflows Section](prompt-library/prompt-workflows/#multi-stage-analysis-pipeline)
+
+### 🌳 Tree-of-Thought Problem Solving
+*Explore multiple solution paths like a chess grandmaster*  
+**Tags:** `expert` `cutting-edge` `systematic`  
+→ [View in Advanced Reasoning Section](prompt-library/advanced-reasoning/#tree-of-thought-problem-solving)
 
 ---
 
