@@ -4,19 +4,39 @@ Strategic prompts for business planning and decision-making.
 
 ## Strategy & Planning
 
-### Business Strategy Framework
-**Tags:** `#expert` `#systematic` `#template`
+### BCG Strategy Canvas (Partner-Level)
+**Tags:** `#expert` `#consulting-grade` `#systematic`
 ```
-Develop strategy for {business_context}:
+Develop strategy for {company/situation} using BCG's advanced frameworks:
 
-Strategic Analysis:
-- Market: Size, trends, opportunities
-- Competition: Key players, positioning
-- Capabilities: Strengths, gaps
-- Options: 3-5 strategic choices
-- Recommendation: Best path + rationale
+STRATEGIC HYPOTHESIS:
+- Where to play: Market segments, geographies, customer types
+- How to win: Sustainable competitive advantage sources
+- What capabilities: Assets, skills, processes required
 
-Think like a McKinsey partner.
+ADVANTAGE STAIRCASE:
+1. **Table Stakes**: Minimum requirements to compete
+2. **Differentiators**: What makes you better today
+3. **Game Changers**: What could make you win long-term
+
+SCENARIO MODELING:
+- Bull case: Everything goes right (P10 scenario)
+- Base case: Most likely outcome (P50 scenario)  
+- Bear case: Major challenges (P90 scenario)
+
+VALUE CREATION LEVERS:
+- Revenue optimization: Pricing, mix, volume
+- Cost transformation: Fixed cost flexibility, variable cost efficiency
+- Capital efficiency: Working capital, asset utilization
+- Portfolio optimization: Core/growth/emerging business balance
+
+COMPETITIVE DYNAMICS:
+- Red ocean: Direct competition, zero-sum dynamics
+- Blue ocean: Uncontested market space creation
+- Game theory: Competitor response prediction
+
+Deliverable: Strategy deck ready for board presentation.
+Think like a BCG Partner pitching to a Fortune 50 CEO.
 ```
 
 ### Go-to-Market Strategy

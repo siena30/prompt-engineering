@@ -1,28 +1,62 @@
-# Coding Prompts
+# Elite Coding Prompts
 
-Token-efficient prompts for software development tasks.
+Expert-tier prompts used by Staff+ Engineers at top tech companies.
 
 ## Architecture & Design
 
-### System Design Expert
-**Tags:** `#expert` `#template` `#systematic`
+### Secure System Design
+**Tags:** `#expert` `#security` `#systematic`
 ```
-Design a {system_type} system for {use_case}. Think like a senior architect:
-- Core components and their interactions
-- Key design decisions with trade-offs
-- Scalability and performance considerations
-- 3 biggest risks and mitigation strategies
+Design {system_type} for {scale} with security-first approach:
 
-Output: Architecture diagram + implementation priority list.
+SECURITY MODEL:
+- Authentication: {method} with MFA
+- Authorization: RBAC/ABAC permissions
+- Data encryption: At rest + in transit
+- Network security: Zero-trust architecture
+
+THREAT ANALYSIS:
+1. **Attack vectors**: STRIDE model application
+2. **Trust boundaries**: Data/service isolation
+3. **Failure modes**: Security + availability
+4. **Monitoring**: Anomaly detection, audit logs
+
+OUTPUT:
+- Security architecture diagram
+- Threat model with mitigations
+- Incident response playbook
+- Compliance checklist
+
+Think like a security-conscious Staff Engineer.
 ```
 
-### Code Review Like a 10x Engineer
-**Tags:** `#expert` `#quick`
+### Code Review (Principal Engineer Standards)
+**Tags:** `#expert` `#systematic` `#production-ready`
 ```
-Review this code with expert-level scrutiny:
+Review this {language} code with the scrutiny of a Principal Engineer:
+
 {code}
 
-Focus on: correctness, performance, maintainability, security. Rate 1-10 and provide top 3 improvements.
+EVALUATION DIMENSIONS:
+1. **Correctness**: Edge cases, race conditions, error handling
+2. **Performance**: Algorithmic complexity, memory usage, cache efficiency
+3. **Maintainability**: Cognitive load, coupling, testability
+4. **Security**: Injection attacks, data leakage, privilege escalation
+5. **Operability**: Logging, metrics, debugging capabilities
+
+RISK ASSESSMENT:
+- P0: Could cause outages or data corruption
+- P1: Performance degradation under load
+- P2: Technical debt that will slow future development
+- P3: Style/convention issues
+
+OUTPUT FORMAT:
+- Overall risk score (1-10)
+- Top 3 must-fix issues with specific solutions
+- Performance bottlenecks with benchmarking approach
+- Security vulnerabilities with remediation
+
+Rate like you're responsible for the system's reliability.
 ```
 
 ## Problem Solving
@@ -41,34 +75,36 @@ Method:
 4. Root cause + fix
 ```
 
-### Code Optimization Expert
-**Tags:** `#expert` `#template`
+### Security Code Review
+**Tags:** `#expert` `#security` `#quick`
 ```
-Optimize this {language} code for {performance_metric}:
+Security review of {language} code:
 {code}
 
-Think like a performance engineer:
-- Bottleneck identification
-- Algorithmic improvements
-- Language-specific optimizations
-- Benchmark validation approach
+SECURITY CHECKLIST:
+- Input validation: SQL injection, XSS, buffer overflow
+- Authentication: Session management, token security
+- Authorization: Access control, privilege escalation
+- Data protection: Sensitive data exposure, encryption
+- Error handling: Information disclosure prevention
+
+OUTPUT: Risk score (1-10) + top 3 vulnerabilities with fixes.
 ```
 
 ## Implementation
 
-### Feature Implementation Strategy
-**Tags:** `#systematic` `#template`
+### Secure Implementation
+**Tags:** `#systematic` `#security`
 ```
-Implement {feature} following best practices:
+Implement {feature} with security by design:
 
-Strategy:
-1. Break into 3-5 subtasks
-2. Define interfaces first
-3. Identify dependencies
-4. Test strategy
-5. Rollout plan
+1. **Threat model**: Identify attack surfaces
+2. **Security controls**: Authentication, authorization, validation
+3. **Data flow**: Sanitization, encryption boundaries
+4. **Testing**: Security unit tests, penetration testing
+5. **Monitoring**: Security events, anomaly detection
 
-Start with the most critical component.
+Security-first implementation approach.
 ```
 
 ### Refactoring Master
@@ -84,16 +120,58 @@ Output:
 - Risk assessment
 ```
 
+## Security & Performance
+
+### Threat Modeling (Microsoft STRIDE)
+**Tags:** `#expert` `#security` `#systematic`
+```
+Apply STRIDE threat model to {system/feature}:
+
+THREAT CATEGORIES:
+- **Spoofing**: Identity verification weaknesses
+- **Tampering**: Data integrity violations  
+- **Repudiation**: Audit trail gaps
+- **Information Disclosure**: Data exposure risks
+- **Denial of Service**: Availability attacks
+- **Elevation of Privilege**: Access control bypass
+
+OUTPUT: Risk matrix + security controls for top 5 threats.
+```
+
+### Performance + Security Audit
+**Tags:** `#expert` `#optimization`
+```
+Audit {system} for performance and security:
+
+PERFORMANCE:
+- Bottlenecks: CPU, memory, I/O, network
+- Caching strategy: Hit rates, invalidation
+- Database: Query optimization, indexing
+
+SECURITY:
+- Input validation: Injection prevention
+- Authentication: Token management, session security
+- Authorization: Access control enforcement
+
+Balanced optimization maintaining security posture.
+```
+
 ## Quick Fixes
 
-### Error Resolution
-**Tags:** `#quick` `#template`
+### Vulnerability Assessment
+**Tags:** `#quick` `#security`
 ```
-Fix this error in {language}:
-{error_message}
-{code_context}
+Assess security vulnerability in {language}:
+{code_or_description}
 
-Provide: cause + solution + prevention tip.
+ANALYSIS:
+- Vulnerability type (OWASP Top 10)
+- Impact severity (Critical/High/Medium/Low)
+- Exploit difficulty
+- Remediation steps
+- Prevention measures
+
+CVSS score + actionable fix.
 ```
 
 ### Code Explanation

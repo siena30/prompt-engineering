@@ -12,6 +12,7 @@ description: Searchable collection of expert-level, token-efficient prompts
     <button class="tag-filter" data-tag="all">All</button>
     <button class="tag-filter" data-tag="quick">Quick</button>
     <button class="tag-filter" data-tag="expert">Expert</button>
+    <button class="tag-filter" data-tag="security">Security</button>
     <button class="tag-filter" data-tag="template">Template</button>
     <button class="tag-filter" data-tag="systematic">Systematic</button>
     <button class="tag-filter" data-tag="creative">Creative</button>
@@ -30,29 +31,50 @@ description: Searchable collection of expert-level, token-efficient prompts
 
 ## 💻 Coding {#coding}
 
-### System Design Expert
-**Tags:** `expert` `template` `systematic`
+### Secure System Design
+**Tags:** `expert` `security` `systematic`
 <div class="prompt-container">
 <div class="prompt-text">
-Design a {system_type} system for {use_case}. Think like a senior architect:
-- Core components and their interactions
-- Key design decisions with trade-offs
-- Scalability and performance considerations
-- 3 biggest risks and mitigation strategies
+Design {system_type} for {scale} with security-first approach:
 
-Output: Architecture diagram + implementation priority list.
+SECURITY MODEL:
+- Authentication: {method} with MFA
+- Authorization: RBAC/ABAC permissions
+- Data encryption: At rest + in transit
+- Network security: Zero-trust architecture
+
+THREAT ANALYSIS:
+1. **Attack vectors**: STRIDE model application
+2. **Trust boundaries**: Data/service isolation
+3. **Failure modes**: Security + availability
+4. **Monitoring**: Anomaly detection, audit logs
+
+OUTPUT:
+- Security architecture diagram
+- Threat model with mitigations
+- Incident response playbook
+- Compliance checklist
+
+Think like a security-conscious Staff Engineer.
 </div>
 <button class="copy-btn" onclick="copyPrompt(this)">Copy</button>
 </div>
 
-### Code Review Like a 10x Engineer
-**Tags:** `expert` `quick`
+### Security Code Review
+**Tags:** `expert` `security` `quick`
 <div class="prompt-container">
 <div class="prompt-text">
-Review this code with expert-level scrutiny:
+Security review of {language} code:
 {code}
 
-Focus on: correctness, performance, maintainability, security. Rate 1-10 and provide top 3 improvements.
+SECURITY CHECKLIST:
+- Input validation: SQL injection, XSS, buffer overflow
+- Authentication: Session management, token security
+- Authorization: Access control, privilege escalation
+- Data protection: Sensitive data exposure, encryption
+- Error handling: Information disclosure prevention
+
+OUTPUT: Risk score (1-10) + top 3 vulnerabilities with fixes.
 </div>
 <button class="copy-btn" onclick="copyPrompt(this)">Copy</button>
 </div>
