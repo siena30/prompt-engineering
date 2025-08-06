@@ -1,7 +1,7 @@
 # Jekyll Configuration for GitHub Pages
 title: "Prompt Engineering Library"
 description: "A curated collection of high-quality, token-efficient prompts for various professional and creative tasks"
-baseurl: ""
+baseurl: "/prompt-engineering"
 url: "https://siena30.github.io/prompt-engineering"
 
 # GitHub Pages settings
