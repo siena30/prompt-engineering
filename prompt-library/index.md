@@ -20,6 +20,7 @@ A curated collection of high-quality, token-efficient prompts for various tasks.
 - **[Analysis](./analysis/)** - Problem-solving, research, evaluation
 - **[Business](./business/)** - Strategy, planning, decision-making
 - **[Creative](./creative/)** - Brainstorming, innovation, ideation
+- **[AI Optimization](./ai-optimization/)** - Model-specific prompt engineering techniques
 
 ## 🏷️ Tag System
 Each prompt includes tags for easy searching:

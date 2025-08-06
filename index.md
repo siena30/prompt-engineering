@@ -57,6 +57,12 @@ description: Searchable collection of expert-level, token-efficient prompts
   </div>
   
   <div class="category-card">
+    <h3><a href="prompt-library/ai-optimization/">🤖 AI Optimization</a></h3>
+    <p>Claude & GPT-4 specific techniques, token efficiency, model benchmarking</p>
+    <span class="prompt-count">12+ prompts</span>
+  </div>
+  
+  <div class="category-card">
     <h3><a href="raw-prompts">📋 Raw Prompts</a></h3>
     <p>Copy-paste ready versions without formatting</p>
     <span class="prompt-count">All prompts</span>
@@ -81,6 +87,11 @@ description: Searchable collection of expert-level, token-efficient prompts
 *Structured analytical techniques used by intelligence professionals*  
 **Tags:** `expert` `intelligence` `systematic`  
 → [View in Analysis Section](prompt-library/analysis/#cia-style-intelligence)
+
+### 🤖 Claude Constitutional Framework
+*Leverage Claude's self-reflection for higher quality outputs*  
+**Tags:** `expert` `claude-optimized` `systematic`  
+→ [View in AI Optimization Section](prompt-library/ai-optimization/#claude-constitutional-framework)
 
 ---
 

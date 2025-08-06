@@ -356,4 +356,71 @@ Target: 50 ideas, no judgment. Quantity breeds quality.
 
 ---
 
+## 🤖 AI OPTIMIZATION PROMPTS
+
+### Claude Constitutional Framework
+```
+Use Claude's constitutional training to refine {task/decision/analysis}:
+
+CONSTITUTIONAL PRINCIPLES:
+- Helpful: Provide genuinely useful outputs
+- Harmless: Avoid any potential negative impacts
+- Honest: Acknowledge uncertainty and limitations
+
+SELF-CRITIQUE PROCESS:
+1. Generate initial response to: {your_prompt}
+2. Evaluate against constitutional principles
+3. Identify potential improvements or issues
+4. Refine response incorporating feedback
+5. Final quality check against helpfulness/harmlessness/honesty
+
+OUTPUT FORMAT:
+- Initial response
+- Self-critique analysis
+- Refined final response
+- Confidence level and remaining uncertainties
+
+Leverage Claude's built-in self-reflection capabilities.
+```
+
+### GPT-4 Token Efficiency Optimization
+```
+Optimize {task} for GPT-4's token efficiency:
+
+COMPRESSION TECHNIQUES:
+- Use abbreviations for repeated terms
+- Bullet points over full sentences
+- Structured formats (tables, lists)
+- Reference previous context rather than repeating
+
+EFFICIENCY PATTERNS:
+1. Front-load key information: Most important details first
+2. Use markdown structure: Headers, bullets, numbered lists
+3. Minimize filler words: Direct, concise language
+4. Leverage GPT-4's context: Reference earlier parts of conversation
+
+Target: 30-50% token reduction while maintaining output quality.
+```
+
+### Universal Model Adaptation
+```
+Adapt {prompt/task} for optimal performance across AI models:
+
+MODEL-AGNOSTIC PRINCIPLES:
+- Clear task definition
+- Structured input/output format
+- Explicit reasoning requirements
+- Quality criteria specification
+
+ADAPTATION FRAMEWORK:
+1. Core Prompt: Model-neutral version
+2. Claude Variant: Leverage constitutional training, long context
+3. GPT-4 Variant: Utilize system messages, few-shot learning
+4. General LLM: Fallback version for other models
+
+Output: Multi-model prompt family with performance benchmarks.
+```
+
+---
+
 *Copy any prompt above and replace the `{variables}` with your specific context. These prompts are optimized for immediate use with minimal setup.*
