@@ -1,13 +1,3 @@
----
-layout: default
-title: AI Model Optimization
-description: Advanced prompt engineering techniques optimized for specific AI models
----
-
-<div style="margin-bottom: 20px;">
-  <a href="{{ '/' | relative_url }}" style="color: #3498db; text-decoration: none;">← Back to Home</a>
-</div>
-
 # 🤖 AI Model Optimization
 
 *Advanced prompt engineering techniques optimized for specific AI models and architectures.*

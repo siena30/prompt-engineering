@@ -8,7 +8,6 @@ url: "https://siena30.github.io/prompt-engineering"
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
 - jekyll-remote-theme
-- jekyll-readme-index
 
 # Site settings
 author: "Prompt Engineering Team"
@@ -56,9 +55,6 @@ exclude:
 include:
   - _pages
 
-# Enable README.md as index files
-readme_index:
-  enabled: true
 
 # Default layouts
 defaults:

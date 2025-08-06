@@ -1,13 +1,3 @@
----
-layout: default
-title: Advanced Reasoning Patterns
-description: Cutting-edge reasoning techniques including Tree-of-Thought, Constitutional AI, and Bayesian thinking
----
-
-<div style="margin-bottom: 20px;">
-  <a href="{{ '/' | relative_url }}" style="color: #3498db; text-decoration: none;">← Back to Home</a>
-</div>
-
 # 🧠 Advanced Reasoning Patterns
 
 *Cutting-edge reasoning methodologies that leverage the latest advances in AI reasoning and cognitive science.*

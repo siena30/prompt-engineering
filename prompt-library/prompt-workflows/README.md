@@ -1,13 +1,3 @@
----
-layout: default
-title: Prompt Workflows & Combinations
-description: Advanced strategies for chaining and combining prompts for complex tasks
----
-
-<div style="margin-bottom: 20px;">
-  <a href="{{ '/' | relative_url }}" style="color: #3498db; text-decoration: none;">← Back to Home</a>
-</div>
-
 # 🔄 Prompt Workflows & Combinations
 
 *Advanced strategies for chaining, combining, and orchestrating prompts to tackle complex multi-step challenges.*
