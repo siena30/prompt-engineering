@@ -185,12 +185,26 @@
         margin-bottom: 10px;
       }
       
+      .main-content {
+        min-height: 400px;
+        margin-bottom: 40px;
+      }
+      
+      .clearfix::after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      
       .footer {
+        clear: both;
         text-align: center;
         margin-top: 60px;
         padding: 30px 0;
         border-top: 1px solid #ecf0f1;
         color: #7f8c8d;
+        width: 100%;
+        position: relative;
       }
       
       @media (max-width: 768px) {
@@ -226,8 +240,9 @@
       <a href="{{ site.github.repository_url }}" target="_blank">GitHub</a>
     </div>
 
-    <main>
+    <main class="main-content">
       {{ content }}
+      <div class="clearfix"></div>
     </main>
 
     <footer class="footer">
