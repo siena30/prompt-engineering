@@ -57,7 +57,7 @@ description: Searchable collection of expert-level, token-efficient prompts
   </div>
   
   <div class="category-card">
-    <h3><a href="raw-prompts/">📋 Raw Prompts</a></h3>
+    <h3><a href="raw-prompts">📋 Raw Prompts</a></h3>
     <p>Copy-paste ready versions without formatting</p>
     <span class="prompt-count">All prompts</span>
   </div>
@@ -230,7 +230,7 @@ document.getElementById('searchBox').addEventListener('keypress', function(e) {
       window.location.href = 'prompt-library/creative/';
     } else {
       // General search - go to raw prompts for full-text search
-      window.location.href = 'raw-prompts/';
+      window.location.href = 'raw-prompts';
     }
   }
 });

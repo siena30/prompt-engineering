@@ -1,3 +1,9 @@
+---
+layout: default
+title: Prompt Library
+description: Browse all prompt categories and find expert-level templates
+---
+
 # Prompt Library
 
 A curated collection of high-quality, token-efficient prompts for various tasks.
