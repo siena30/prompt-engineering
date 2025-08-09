@@ -68,11 +68,20 @@ Debug this issue systematically:
 Problem: {error_description}
 Code: {relevant_code}
 
-Method:
-1. Hypothesis (most likely cause)
-2. Test strategy
-3. Expected vs actual behavior
-4. Root cause + fix
+SYSTEMATIC METHOD:
+1. **Hypothesis**: Most likely cause based on symptoms
+2. **Test Strategy**: How to isolate and verify the cause
+3. **Expected vs Actual**: What should happen vs what happens
+4. **Root Cause**: Underlying issue, not just symptoms  
+5. **Fix**: Specific solution with validation approach
+
+OUTPUT FORMAT:
+- Root cause analysis (2-3 sentences)
+- Specific fix with code changes
+- Testing strategy to verify fix
+- Prevention measures for future
+
+Think like a senior debugger solving production issues.
 ```
 
 ### Security Code Review
@@ -88,7 +97,11 @@ SECURITY CHECKLIST:
 - Data protection: Sensitive data exposure, encryption
 - Error handling: Information disclosure prevention
 
-OUTPUT: Risk score (1-10) + top 3 vulnerabilities with fixes.
+OUTPUT FORMAT:
+- Overall risk score (1-10) with rationale
+- Top 3 vulnerabilities with CVSS ratings
+- Specific remediation steps for each issue
+- Prevention measures for development process
 ```
 
 ## Implementation
@@ -96,15 +109,28 @@ OUTPUT: Risk score (1-10) + top 3 vulnerabilities with fixes.
 ### Secure Implementation
 **Tags:** `#systematic` `#security`
 ```
-Implement {feature} with security by design:
+Implement {feature_name} with security by design:
 
-1. **Threat model**: Identify attack surfaces
-2. **Security controls**: Authentication, authorization, validation
-3. **Data flow**: Sanitization, encryption boundaries
-4. **Testing**: Security unit tests, penetration testing
+SECURITY-FIRST APPROACH:
+1. **Threat Model**: Identify attack surfaces and entry points
+2. **Security Controls**: Authentication, authorization, input validation
+3. **Data Flow Security**: Sanitization points, encryption boundaries  
+4. **Testing Strategy**: Security unit tests, penetration testing
 5. **Monitoring**: Security events, anomaly detection
 
-Security-first implementation approach.
+OUTPUT FORMAT:
+- Security architecture overview
+- Implementation checklist with priorities
+- Test cases for security validation  
+- Monitoring and alerting requirements
+- Compliance verification steps
+
+SUCCESS CRITERIA:
+- Zero high-severity security vulnerabilities
+- All data flows properly secured
+- Comprehensive test coverage for security scenarios
+
+Apply security-first development principles throughout.
 ```
 
 ### Refactoring Master
@@ -113,11 +139,26 @@ Security-first implementation approach.
 Refactor this code following SOLID principles:
 {code}
 
-Output:
-- Current design issues
-- Refactored structure
-- Migration steps
-- Risk assessment
+REFACTORING FRAMEWORK:
+- **S**ingle Responsibility: One reason to change
+- **O**pen/Closed: Open for extension, closed for modification
+- **L**iskov Substitution: Subtypes must be substitutable
+- **I**nterface Segregation: Many specific interfaces vs one general
+- **D**ependency Inversion: Depend on abstractions, not concretions
+
+OUTPUT FORMAT:
+- Current SOLID violations (specific issues identified)
+- Refactored code structure with explanations
+- Step-by-step migration plan with risk mitigation
+- Code quality metrics improvement (before/after)
+- Testing strategy for refactored components
+
+SUCCESS CRITERIA:
+- All SOLID principles properly applied
+- Maintainability score improvement measurable
+- No functionality regression during migration
+
+Think like a senior architect designing for long-term maintainability.
 ```
 
 ## Security & Performance
@@ -135,25 +176,44 @@ THREAT CATEGORIES:
 - **Denial of Service**: Availability attacks
 - **Elevation of Privilege**: Access control bypass
 
-OUTPUT: Risk matrix + security controls for top 5 threats.
+OUTPUT FORMAT:
+- Risk matrix with likelihood and impact scores
+- Top 5 threats prioritized by risk level
+- Specific security controls for each threat
+- Implementation timeline and resource requirements
+- Monitoring and detection capabilities needed
 ```
 
 ### Performance + Security Audit
 **Tags:** `#expert` `#optimization`
 ```
-Audit {system} for performance and security:
+Audit {system_name} for performance and security:
 
-PERFORMANCE:
-- Bottlenecks: CPU, memory, I/O, network
-- Caching strategy: Hit rates, invalidation
-- Database: Query optimization, indexing
+PERFORMANCE ANALYSIS:
+- **Bottlenecks**: CPU, memory, I/O, network utilization
+- **Caching Strategy**: Hit rates, invalidation patterns, efficiency
+- **Database Performance**: Query optimization, indexing effectiveness
+- **Scalability**: Load handling, resource scaling patterns
 
-SECURITY:
-- Input validation: Injection prevention
-- Authentication: Token management, session security
-- Authorization: Access control enforcement
+SECURITY ANALYSIS:
+- **Input Validation**: Injection prevention, sanitization
+- **Authentication**: Token management, session security
+- **Authorization**: Access control enforcement, privilege escalation risks
+- **Data Protection**: Encryption, sensitive data handling
 
-Balanced optimization maintaining security posture.
+OUTPUT FORMAT:
+- Performance score (1-10) with bottleneck analysis
+- Security score (1-10) with vulnerability assessment
+- Priority-ranked improvement recommendations
+- Implementation roadmap with effort estimates
+- Monitoring strategy for ongoing optimization
+
+SUCCESS CRITERIA:
+- Performance improvements quantified with metrics
+- Security vulnerabilities addressed with timelines
+- Balanced optimization maintaining both performance and security
+
+Audit like you're optimizing a high-traffic production system.
 ```
 
 ## Quick Fixes
@@ -180,7 +240,27 @@ CVSS score + actionable fix.
 Explain this {language} code like I'm a {skill_level} developer:
 {code}
 
-Focus on: purpose, key concepts, gotchas.
+EXPLANATION FRAMEWORK:
+1. **Purpose**: What this code accomplishes (high-level goal)
+2. **Key Concepts**: Important patterns, algorithms, or techniques used
+3. **Code Flow**: Step-by-step execution walkthrough
+4. **Critical Details**: Gotchas, edge cases, performance considerations
+5. **Context**: How this fits into larger systems or patterns
+
+OUTPUT FORMAT:
+- Executive summary (1-2 sentences)
+- Detailed walkthrough with line-by-line annotations
+- Key learning points for {skill_level} developers
+- Potential improvements or alternatives
+- Related concepts to explore further
+
+SUCCESS CRITERIA:
+- Explanation matches skill level appropriately
+- Technical accuracy with no misleading information
+- Educational value for skill development
+- Clear, jargon-appropriate language
+
+Explain like the best coding mentor you know.
 ```
 
 ## Elite Engineering
@@ -188,7 +268,7 @@ Focus on: purpose, key concepts, gotchas.
 ### Technical Debt Quantification (Facebook Method)
 **Tags:** `#expert` `#systematic` `#technical-debt`
 ```
-Quantify technical debt in {codebase/system} using Facebook's methodology:
+Quantify technical debt in {codebase_name} using Facebook's methodology:
 
 DEBT TAXONOMY:
 1. **Code Debt**: Complexity, duplication, architecture violations
@@ -207,12 +287,25 @@ PRIORITIZATION MATRIX:
 - Low Interest + High Risk = Risk mitigation focus
 - Low Interest + Low Risk = Defer
 
-BUSINESS IMPACT:
+BUSINESS IMPACT ANALYSIS:
 - Feature delivery slowdown: {X}% per quarter
 - Incident rate correlation: {Y} incidents/month
 - Developer satisfaction impact: Net Promoter Score
 
-Output: ROI calculation for debt paydown vs new features.
+OUTPUT FORMAT:
+- Debt inventory with quantified measurements
+- Prioritization matrix with specific recommendations
+- ROI calculation for debt paydown vs new features
+- Implementation timeline with resource requirements
+- Success metrics and monitoring approach
+
+SUCCESS CRITERIA:
+- All debt categories systematically measured
+- Business impact quantified with data
+- Clear prioritization based on risk/impact analysis
+- Actionable roadmap with resource estimates
+
+Think like a VP of Engineering making data-driven technical investment decisions.
 ```
 
 ---

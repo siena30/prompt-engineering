@@ -10,11 +10,15 @@ prompt-engineering/
 ├── CLAUDE.md                   # Context for Claude Code sessions
 └── prompt-library/             # Main prompt collection
     ├── README.md              # Library overview and navigation
-    ├── coding/                # Development, debugging, architecture
+    ├── index.md               # Alternative navigation format
+    ├── coding/                # Development, debugging, architecture, security
     ├── writing/               # Content creation, storytelling, documentation
-    ├── analysis/              # Problem-solving, research, evaluation
-    ├── business/              # Strategy, planning, decision-making
-    └── creative/              # Brainstorming, innovation, ideation
+    ├── analysis/              # Problem-solving, research, intelligence analysis
+    ├── business/              # Strategy, planning, decision-making, M&A
+    ├── creative/              # Brainstorming, innovation, ideation
+    ├── advanced-reasoning/    # Tree-of-thought, constitutional AI, Bayesian
+    ├── ai-optimization/       # Model-specific optimization, benchmarking
+    └── prompt-workflows/      # Multi-step processes, orchestration
 ```
 
 ## 🎯 Purpose
@@ -58,8 +62,8 @@ Mix prompts from different categories for complex tasks:
 
 ## 🔧 Maintenance
 
-- **Last Updated**: 2025-08-04
-- **Total Prompts**: 50+ across 5 categories
+- **Last Updated**: 2025-08-09
+- **Total Prompts**: 100+ across 8 categories
 - **Update Frequency**: As needed based on usage and feedback
 
 ## 📖 Documentation

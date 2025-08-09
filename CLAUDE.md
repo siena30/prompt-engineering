@@ -14,24 +14,28 @@ prompt-engineering/
 ├── CLAUDE.md                   # This context file
 └── prompt-library/             # Core prompt collection
     ├── README.md              # Library navigation and overview
+    ├── index.md               # Alternative navigation format
     ├── coding/README.md       # Software development prompts
     ├── writing/README.md      # Content creation prompts  
     ├── analysis/README.md     # Problem-solving prompts
     ├── business/README.md     # Strategy and planning prompts
-    └── creative/README.md     # Innovation and brainstorming prompts
+    ├── creative/README.md     # Innovation and brainstorming prompts
+    ├── advanced-reasoning/README.md    # Cutting-edge reasoning patterns
+    ├── ai-optimization/README.md       # AI model-specific optimization
+    └── prompt-workflows/README.md      # Complex multi-step workflows
 ```
 
 ## Content Nature
 
 - **Documentation-only**: All files are Markdown documentation
 - **Template-based**: Prompts use `{variable}` placeholder syntax
-- **Category organization**: 5 main domains (coding, writing, analysis, business, creative)
-- **Tag system**: `#quick`, `#expert`, `#template`, `#systematic`, `#creative`
+- **Category organization**: 8 main domains (coding, writing, analysis, business, creative, advanced-reasoning, ai-optimization, prompt-workflows)
+- **Tag system**: `#quick`, `#expert`, `#template`, `#systematic`, `#creative`, `#cutting-edge`, `#constitutional-ai`, `#bayesian`, `#claude-optimized`, `#gpt4-optimized`, `#workflow`, `#security`, `#intelligence`
 
 ## Working with This Repository
 
 ### When asked to add new prompts:
-1. Determine the appropriate category (coding/writing/analysis/business/creative)
+1. Determine the appropriate category (coding/writing/analysis/business/creative/advanced-reasoning/ai-optimization/prompt-workflows)
 2. Follow the existing format and tagging system
 3. Include clear variable placeholders using `{variable}` syntax
 4. Add appropriate tags based on prompt characteristics
@@ -88,9 +92,9 @@ All content is static Markdown documentation that can be directly edited and com
 ## Version Information
 
 - **Created**: 2025-08-04
-- **Last Updated**: 2025-08-04
-- **Total Categories**: 5
-- **Estimated Prompts**: 50+
+- **Last Updated**: 2025-08-09
+- **Total Categories**: 8
+- **Estimated Prompts**: 100+
 
 ---
 
