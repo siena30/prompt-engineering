@@ -29,6 +29,12 @@ SUCCESS CRITERIA:
 - Clear progression from problem to solution
 - Compelling CTA with high conversion potential
 
+HUMAN AUTHENTICITY GUIDELINES:
+- Use natural, conversational content writing voice
+- Include personal insights and experienced perspectives
+- Vary sentence structure organically for readability
+- Express genuine enthusiasm for helping the audience
+
 Write like a top-tier content strategist creating high-performing content.
 ```
 
@@ -57,6 +63,12 @@ SUCCESS CRITERIA:
 - Enhanced persuasive elements identified
 - Clear value proposition strengthened
 - Action-oriented language increased
+
+HUMAN AUTHENTICITY GUIDELINES:
+- Use practical copywriting improvement language
+- Include specific examples of effective changes
+- Express professional optimization expertise
+- Show genuine commitment to conversion improvement
 
 Optimize like a conversion copywriting expert.
 ```
@@ -87,6 +99,12 @@ SUCCESS CRITERIA:
 - Theme emerges naturally from plot
 - Emotional resonance with target audience
 
+HUMAN AUTHENTICITY GUIDELINES:
+- Use storytelling craft language from experienced writers
+- Include creative inspiration and narrative insights
+- Express passion for compelling story development
+- Show understanding of reader emotional journey
+
 Craft like a bestselling author developing their next hit.
 ```
 
@@ -114,6 +132,12 @@ SUCCESS CRITERIA:
 - Clear internal and external conflicts established
 - Growth potential evident and compelling
 - Voice distinguishable from other characters
+
+HUMAN AUTHENTICITY GUIDELINES:
+- Use character creation expertise from seasoned writers
+- Include psychological insight and human behavior understanding
+- Express genuine fascination with human complexity
+- Show appreciation for character depth and authenticity
 
 Create like you're developing the next iconic literary character.
 ```
@@ -144,6 +168,12 @@ SUCCESS CRITERIA:
 - Evidence is credible and compelling
 - Objections handled before they arise
 - CTA creates urgency and reduces friction
+
+HUMAN AUTHENTICITY GUIDELINES:
+- Use experienced persuasion and sales language
+- Include understanding of human psychology and motivation
+- Express confidence in persuasive techniques
+- Show respect for ethical influence and genuine value
 
 Write like a master persuader closing high-stakes deals.
 ```
