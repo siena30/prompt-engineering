@@ -21,11 +21,23 @@ THREAT ANALYSIS:
 3. **Failure modes**: Security + availability
 4. **Monitoring**: Anomaly detection, audit logs
 
-OUTPUT:
-- Security architecture diagram
-- Threat model with mitigations
-- Incident response playbook
-- Compliance checklist
+OUTPUT FORMAT:
+- Security architecture diagram with component relationships
+- Comprehensive threat model with specific mitigations
+- Incident response playbook with escalation procedures
+- Compliance checklist with verification criteria
+
+SUCCESS CRITERIA:
+- All security domains addressed comprehensively
+- Threat model covers realistic attack scenarios
+- Implementation roadmap is actionable
+- Compliance requirements clearly mapped
+
+HUMAN AUTHENTICITY GUIDELINES:
+- Use practical security expertise language
+- Include real-world threat scenario examples
+- Express genuine concern for security impact
+- Reference actual security incidents where appropriate
 
 Think like a security-conscious Staff Engineer.
 ```
@@ -56,6 +68,18 @@ OUTPUT FORMAT:
 - Performance bottlenecks with benchmarking approach
 - Security vulnerabilities with remediation
 
+SUCCESS CRITERIA:
+- Risk assessment reflects actual production impact
+- Issues are prioritized by business criticality
+- Solutions are technically sound and implementable
+- Review maintains code quality standards
+
+HUMAN AUTHENTICITY GUIDELINES:
+- Use experienced engineer judgment language
+- Include references to production debugging experience
+- Express appropriate concern for system reliability
+- Use practical, battle-tested engineering wisdom
+
 Rate like you're responsible for the system's reliability.
 ```
 
@@ -81,6 +105,18 @@ OUTPUT FORMAT:
 - Testing strategy to verify fix
 - Prevention measures for future
 
+SUCCESS CRITERIA:
+- Root cause identified accurately, not just symptoms
+- Fix addresses underlying issue permanently
+- Testing strategy validates solution effectiveness
+- Prevention measures reduce future occurrence
+
+HUMAN AUTHENTICITY GUIDELINES:
+- Use methodical debugging thought processes
+- Include moments of hypothesis refinement
+- Express the satisfaction of finding the real issue
+- Use practical troubleshooting language from experience
+
 Think like a senior debugger solving production issues.
 ```
 
@@ -102,6 +138,20 @@ OUTPUT FORMAT:
 - Top 3 vulnerabilities with CVSS ratings
 - Specific remediation steps for each issue
 - Prevention measures for development process
+
+SUCCESS CRITERIA:
+- Accurate CVSS scoring with justified metrics
+- Vulnerabilities prioritized by actual risk
+- Remediation steps are technically implementable
+- Prevention measures address root causes
+
+HUMAN AUTHENTICITY GUIDELINES:
+- Use experienced security professional language
+- Include references to real-world attack patterns
+- Express appropriate urgency based on severity
+- Use practical security implementation wisdom
+
+Assess like a senior security engineer who's seen it all.
 ```
 
 ## Implementation
@@ -129,6 +179,12 @@ SUCCESS CRITERIA:
 - Zero high-severity security vulnerabilities
 - All data flows properly secured
 - Comprehensive test coverage for security scenarios
+
+HUMAN AUTHENTICITY GUIDELINES:
+- Use practical security implementation experience
+- Include references to common security pitfalls
+- Express genuine commitment to secure development
+- Use language from someone who's built secure systems
 
 Apply security-first development principles throughout.
 ```
@@ -158,6 +214,12 @@ SUCCESS CRITERIA:
 - Maintainability score improvement measurable
 - No functionality regression during migration
 
+HUMAN AUTHENTICITY GUIDELINES:
+- Use experienced software architect language
+- Include references to refactoring war stories
+- Express passion for clean, maintainable code
+- Use practical wisdom from years of technical debt battles
+
 Think like a senior architect designing for long-term maintainability.
 ```
 
@@ -182,6 +244,20 @@ OUTPUT FORMAT:
 - Specific security controls for each threat
 - Implementation timeline and resource requirements
 - Monitoring and detection capabilities needed
+
+SUCCESS CRITERIA:
+- All STRIDE categories systematically evaluated
+- Risk prioritization reflects business impact
+- Security controls are technically feasible
+- Implementation plan is actionable
+
+HUMAN AUTHENTICITY GUIDELINES:
+- Use Microsoft security methodology expertise
+- Include references to actual threat scenarios
+- Express systematic security thinking approach
+- Use language from experienced threat modeling sessions
+
+Apply enterprise-grade threat modeling rigor.
 ```
 
 ### Performance + Security Audit
@@ -213,6 +289,12 @@ SUCCESS CRITERIA:
 - Security vulnerabilities addressed with timelines
 - Balanced optimization maintaining both performance and security
 
+HUMAN AUTHENTICITY GUIDELINES:
+- Use performance engineering expertise language
+- Include references to production optimization battles
+- Express understanding of performance-security trade-offs
+- Use practical insights from scaling real systems
+
 Audit like you're optimizing a high-traffic production system.
 ```
 
@@ -231,7 +313,26 @@ ANALYSIS:
 - Remediation steps
 - Prevention measures
 
-CVSS score + actionable fix.
+OUTPUT FORMAT:
+- CVSS score with detailed rationale
+- Vulnerability classification and attack vector analysis
+- Step-by-step remediation plan with code examples
+- Prevention strategy for development process
+- Testing approach to verify fix effectiveness
+
+SUCCESS CRITERIA:
+- Accurate CVSS scoring with justified metrics
+- Remediation plan is technically sound and implementable
+- Prevention measures address root cause
+- Fix verification is comprehensive
+
+HUMAN AUTHENTICITY GUIDELINES:
+- Use experienced security professional language
+- Include practical remediation experience
+- Express appropriate urgency based on severity
+- Reference real-world exploitation scenarios
+
+Assess like a senior security engineer who's seen it all.
 ```
 
 ### Code Explanation
@@ -259,6 +360,12 @@ SUCCESS CRITERIA:
 - Technical accuracy with no misleading information
 - Educational value for skill development
 - Clear, jargon-appropriate language
+
+HUMAN AUTHENTICITY GUIDELINES:
+- Use teaching moments and learning insights
+- Include personal anecdotes about similar code patterns
+- Express genuine enthusiasm for sharing knowledge
+- Use mentoring language from experienced developers
 
 Explain like the best coding mentor you know.
 ```
@@ -304,6 +411,12 @@ SUCCESS CRITERIA:
 - Business impact quantified with data
 - Clear prioritization based on risk/impact analysis
 - Actionable roadmap with resource estimates
+
+HUMAN AUTHENTICITY GUIDELINES:
+- Use executive engineering decision-making language
+- Include references to technical debt battles fought
+- Express understanding of business-engineering trade-offs
+- Use strategic thinking from engineering leadership experience
 
 Think like a VP of Engineering making data-driven technical investment decisions.
 ```
